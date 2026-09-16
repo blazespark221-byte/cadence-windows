@@ -1,0 +1,258 @@
+{
+  "product": "Cadence",
+  "version": "1.0.2",
+  "architecture": "x64",
+  "minimumWindows": "10.0.19041",
+  "buildUTC": "2026-09-16T09:29:13.1518000Z",
+  "sourceCommit": "1f536935b37b5a2bc758ac05e4274fd4234e0792",
+  "sourceModified": false,
+  "swiftRuntime": "6.3.3",
+  "dotnetSdk": "8.0.425",
+  "files": [
+    {
+      "path": "Cadence.exe",
+      "bytes": 163061191,
+      "sha256": "f43528381923bc23aeed802a7de68ab39ae06a2313d8a6cbecd7229e8ec16b8e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6976,
+      "sha256": "c60779dfc8f03817c242c28d7cc217b88f939dbfcd5e10c54f4a64163d3a0e8e"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "bytes": 958,
+      "sha256": "cdf51a5b3b10e723b11606d1ad03bd8f369350817f0485461546d603544e9871"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "bytes": 5525,
+      "sha256": "8f920451e4a71eed0ca5cf72767fc679e6c9a2d965cbfee2aa62bf5cab9cd633"
+    },
+    {
+      "path": "engine/_FoundationICU.dll",
+      "bytes": 37336576,
+      "sha256": "ef06318330ed0c7869c2073cb1d4a97b3e150b3d903c8b24045c4ff5a3d7ac87"
+    },
+    {
+      "path": "engine/BlocksRuntime.dll",
+      "bytes": 11776,
+      "sha256": "642fc8ce823b5af17d044782da14e5d36c397f7cb694a043723e7523b273ff5b"
+    },
+    {
+      "path": "engine/CadenceWindowsBridge.exe",
+      "bytes": 8317440,
+      "sha256": "4346697d40b8a29f980f0c6093b1043f1239a5c6d4fa5e09ffae19c8ce7dc29b"
+    },
+    {
+      "path": "engine/concrt140.dll",
+      "bytes": 322640,
+      "sha256": "e2e4609c569c69f7b1686f6d0e81ce62187ac5df05e0247954500053b3c3de3f"
+    },
+    {
+      "path": "engine/dispatch.dll",
+      "bytes": 234496,
+      "sha256": "1f35587d0448ae6c747a134df9c5b59d73b803e4be1328bdb1e7db5dc16a58a4"
+    },
+    {
+      "path": "engine/Foundation.dll",
+      "bytes": 4742144,
+      "sha256": "168aefec134849f733594b9721e6d000b8431b5a0da69c0c05c86df0eb56a574"
+    },
+    {
+      "path": "engine/FoundationEssentials.dll",
+      "bytes": 5492224,
+      "sha256": "5edcc560437f31c0aa092293fd3792d6cacd891a74095aeae784931a992784c1"
+    },
+    {
+      "path": "engine/FoundationInternationalization.dll",
+      "bytes": 1546240,
+      "sha256": "0a9ceb69baaa9b3f922740e7138bd0762748af62cd976cba76dac6cf17d20ec7"
+    },
+    {
+      "path": "engine/FoundationNetworking.dll",
+      "bytes": 1476608,
+      "sha256": "2526b5b278644974aa9f01eb01e9152b509ea2264e01e39bc29411ad73c15c9f"
+    },
+    {
+      "path": "engine/FoundationXML.dll",
+      "bytes": 818688,
+      "sha256": "c4f09fdd200ff03772c5ad4183604224e75d17cb14fc1f8c808f7b9405a74b4d"
+    },
+    {
+      "path": "engine/msvcp140_1.dll",
+      "bytes": 35944,
+      "sha256": "a65249861238e1c18b84ae5d112617c438d83a76b67eddc170ad82dbc2338665"
+    },
+    {
+      "path": "engine/msvcp140_2.dll",
+      "bytes": 267880,
+      "sha256": "89e2e9a163165e20c540f9adea081e927ddfe4a556547b0f45f11586d4cce165"
+    },
+    {
+      "path": "engine/msvcp140_atomic_wait.dll",
+      "bytes": 50256,
+      "sha256": "fbf41e4b53f51bbf73fee37b6120103fea6b7d5ae29916f8ef50c50cfdedeead"
+    },
+    {
+      "path": "engine/msvcp140_codecvt_ids.dll",
+      "bytes": 31824,
+      "sha256": "0e1d3d76e899a89fb3893fb13abae232ff62ad4f573214dd2f02b8398166bcc6"
+    },
+    {
+      "path": "engine/msvcp140.dll",
+      "bytes": 575592,
+      "sha256": "9057d39b36b6c7d054865ee2bf9cde7a490fe3b01ec4e82514687e24f576269f"
+    },
+    {
+      "path": "engine/swift_Concurrency.dll",
+      "bytes": 539136,
+      "sha256": "4232d4af539a01b651eb7aca79be686d8c6b0d52ba59cfafde9e358abec66203"
+    },
+    {
+      "path": "engine/swift_Differentiation.dll",
+      "bytes": 357376,
+      "sha256": "5e9c4fe303fbfeb9594c9018884143c0dd69672fe561754d7b4983534a931de2"
+    },
+    {
+      "path": "engine/swift_RegexParser.dll",
+      "bytes": 970240,
+      "sha256": "0899d015b1f230e469d73a76d484596b2e4dffb014fe901ce563e5d84adacde5"
+    },
+    {
+      "path": "engine/swift_StringProcessing.dll",
+      "bytes": 668672,
+      "sha256": "1aa79d1ce4bfaeea19ad16760aa50f0c7d9168090d43c0460defd2c1469a8716"
+    },
+    {
+      "path": "engine/swiftCore.dll",
+      "bytes": 6124544,
+      "sha256": "852f2e59694d89ca28a38cfe0ba97f12d45e5a5e5ae2e06830adc85fd07f14f4"
+    },
+    {
+      "path": "engine/swiftCRT.dll",
+      "bytes": 39936,
+      "sha256": "f072f89375c6617710e7cca679835889639aae991f9505bd0730a71b026418a1"
+    },
+    {
+      "path": "engine/swiftDispatch.dll",
+      "bytes": 150528,
+      "sha256": "486f5a4fb8c594b506ab05555b5779824b71058f5a5e63b863654983a927df99"
+    },
+    {
+      "path": "engine/swiftDistributed.dll",
+      "bytes": 100352,
+      "sha256": "6b9e5386d91be10f75f781290676069b517f72c8cce424b9f9d8a580155c5a58"
+    },
+    {
+      "path": "engine/swiftObservation.dll",
+      "bytes": 77824,
+      "sha256": "19eec6167e58368213629767c2dbe8362b85d9736da261d380c4b20bbb140499"
+    },
+    {
+      "path": "engine/swiftRegexBuilder.dll",
+      "bytes": 78336,
+      "sha256": "1a8eea8c3238c807ae6e6c75103c95d6123602754c3e6142098ed8cdeaee5bb2"
+    },
+    {
+      "path": "engine/swiftRemoteMirror.dll",
+      "bytes": 863744,
+      "sha256": "142c47eb0ab9c0223d7dd4a70c4e4e854d12a222d8b33fe42c55d249d0488b82"
+    },
+    {
+      "path": "engine/swiftSwiftOnoneSupport.dll",
+      "bytes": 218624,
+      "sha256": "add87d52d34bb361a1b70a39739c039d16977783e4ec7a1ba6dcc878d18af2d3"
+    },
+    {
+      "path": "engine/swiftSynchronization.dll",
+      "bytes": 54272,
+      "sha256": "1325311b92d457726c638f9d64a59a40422bc8366b4f8764352b1d4133ec07cc"
+    },
+    {
+      "path": "engine/swiftWinSDK.dll",
+      "bytes": 32256,
+      "sha256": "773d12e8b6edbe4d39fccc6d914ce56462ebc1090490bc3ebaad3038ea43b31c"
+    },
+    {
+      "path": "engine/vccorlib140.dll",
+      "bytes": 351824,
+      "sha256": "8903b5d88968791d2a93648a54a1ac3d1c708c579a72311ffe194f6d66903043"
+    },
+    {
+      "path": "engine/vcruntime140_1.dll",
+      "bytes": 49744,
+      "sha256": "26e470b29bed3d873e0c328186e53f95e9edbfe0b0fd0cda44743a0b1a04a828"
+    },
+    {
+      "path": "engine/vcruntime140_threads.dll",
+      "bytes": 38504,
+      "sha256": "326110c8c5cac836cfed1643304cb6bdc4a8737a7a535d6b1eff4d63878aef9d"
+    },
+    {
+      "path": "engine/vcruntime140.dll",
+      "bytes": 120432,
+      "sha256": "da72e6677bd1bcd01c453c1998aaa19aeaf6659f4774cf6848409da8232a95b2"
+    },
+    {
+      "path": "engine/Cadence_CadenceCore.resources/compatibility.json",
+      "bytes": 3834,
+      "sha256": "671f290825a782b146871ba8a1ebbf7cf7db42376f86daa3a7b9e6d43dcef50e"
+    },
+    {
+      "path": "licenses/Dotnet-LICENSE.txt",
+      "bytes": 1116,
+      "sha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310"
+    },
+    {
+      "path": "licenses/Dotnet-THIRD-PARTY-NOTICES.txt",
+      "bytes": 67638,
+      "sha256": "97c1a7b3da6a4c6ad516448719f45114b41a4d4c5aa300a944476e2e4f5da438"
+    },
+    {
+      "path": "licenses/ICU-LICENSE.txt",
+      "bytes": 26487,
+      "sha256": "451167c55c0fa447cc2d5632714f5e3c567fe4f1e1badefab2c1333852198aca"
+    },
+    {
+      "path": "licenses/Inno-Setup-LICENSE.txt",
+      "bytes": 1490,
+      "sha256": "3df23505b7ec00dc007a1e1e9ba32ee3895e7ce90043bcd1ac1b9b47155921a7"
+    },
+    {
+      "path": "licenses/Libdispatch-LICENSE.txt",
+      "bytes": 11759,
+      "sha256": "0ca84095d1de77cad1a866ebbad28f8db98a0826c6055d92b0608c5baa1643e2"
+    },
+    {
+      "path": "licenses/Microsoft-Visual-C-REDIST.txt",
+      "bytes": 184,
+      "sha256": "bc10a369c1dc09000fcf5ae6420ffaf473c6359ce76a32615686f18dae1b67d6"
+    },
+    {
+      "path": "licenses/Microsoft-Visual-C-Runtime-LICENSE.docx",
+      "bytes": 39644,
+      "sha256": "f1e3d56ceb2ad68aae0711b910375009e651ac5530fa0760f0dea6e81e54fae1"
+    },
+    {
+      "path": "licenses/Microsoft-Visual-C-Runtime-LICENSE.txt",
+      "bytes": 6623,
+      "sha256": "db7d5f8dea1805267cbad92bd394ae61433a8903bfd6dfdd4f73565de334ec25"
+    },
+    {
+      "path": "licenses/Swift-LICENSE.txt",
+      "bytes": 11751,
+      "sha256": "770af8291f708538d8ff885a0bbc4e045cd700531741c4f99528d435c14d7f55"
+    },
+    {
+      "path": "licenses/WPF-LICENSE.txt",
+      "bytes": 1115,
+      "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+    },
+    {
+      "path": "licenses/WPF-THIRD-PARTY-NOTICES.txt",
+      "bytes": 2703,
+      "sha256": "d23dba2fee20c6b59d8f7088ee9ed372459c952a319b7ca90f3eec370cc76eb9"
+    }
+  ]
+}

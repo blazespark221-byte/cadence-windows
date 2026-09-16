@@ -1,0 +1,42 @@
+{
+  "runUTC": "2026-09-16T13:26:54.397Z",
+  "version": "1.0.2",
+  "headless": false,
+  "unverified": [],
+  "passed": 8,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "File manifest hashes match release payload",
+      "passed": true
+    },
+    {
+      "name": "Portable UI starts without installed runtimes or developer PATH",
+      "passed": true
+    },
+    {
+      "name": "Packaged Swift bridge passes clean-environment integration",
+      "passed": true
+    },
+    {
+      "name": "Installer completes for current user without elevation",
+      "passed": true
+    },
+    {
+      "name": "Installed UI starts with bundled runtimes",
+      "passed": true
+    },
+    {
+      "name": "In-place installer upgrade completes",
+      "passed": true
+    },
+    {
+      "name": "Uninstaller removes its installed executable and engine",
+      "passed": true
+    },
+    {
+      "name": "Production Cadence registration and shortcuts remain byte-for-byte unchanged",
+      "passed": true
+    }
+  ]
+}

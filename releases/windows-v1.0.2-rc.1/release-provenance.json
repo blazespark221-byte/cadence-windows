@@ -1,0 +1,53 @@
+{
+  "version": "1.0.2",
+  "channel": "prerelease",
+  "signed": false,
+  "sourceRepository": "blazespark221-byte/cadence",
+  "sourceRepositoryPrivate": true,
+  "sourceCommit": "1f536935b37b5a2bc758ac05e4274fd4234e0792",
+  "sourceModified": false,
+  "sourceTag": "windows-v1.0.2-rc.1",
+  "evidenceCommit": "50e90002bb8d2d9a7ad4778ba4ae894817ab8ec3",
+  "distributionRepository": "blazespark221-byte/cadence-windows",
+  "distributionTag": "windows-v1.0.2-rc.1",
+  "distributionTagPurpose": "Version-specific binary provenance and verification documentation; not application source",
+  "minimumWindows": "10.0.19041",
+  "architecture": "x64",
+  "verifiedHost": "Windows 11 x64 build 26200",
+  "runtimesBundled": true,
+  "freshShortcuts": {
+    "dictation": "Ctrl+Alt+Space",
+    "dictationMode": "hold",
+    "rewrite": "Ctrl+Alt+R",
+    "rewriteMode": "toggle instruction recording",
+    "cancel": "Escape"
+  },
+  "managedCadenceAccount": false,
+  "ownProvidersRequired": true,
+  "liveSpeechEndToEndVerified": false,
+  "noAudioFinalPass": true,
+  "artifacts": [
+    {
+      "file": "Cadence-1.0.2-windows-x64-setup.exe",
+      "bytes": 67460978,
+      "sha256": "d0eb2cb38f7e57f71392c26d6b690f7f919e392a0bc12882cfeeb195ca4f14f7"
+    },
+    {
+      "file": "Cadence-1.0.2-windows-x64-portable.zip",
+      "bytes": 96696457,
+      "sha256": "78ab7dd846b2787e06f70936ca9adeabb23b780dc0cb4d606abf9a08d1186a2f"
+    }
+  ],
+  "verification": {
+    "packageLifecycle": 8,
+    "packageHeadless": 3,
+    "logic": 107,
+    "offscreenUI": 299,
+    "bridge": 25,
+    "trayTargets": 3,
+    "nativeRefine": 1,
+    "nativeShortcutFocus": 3,
+    "productionIdentityInstallerExecuted": false,
+    "separateVerificationIdentity": true
+  }
+}
