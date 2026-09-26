@@ -1,0 +1,26 @@
+{
+  "runUTC": "2026-09-26T10:29:55.665Z",
+  "version": "1.0.3",
+  "headless": true,
+  "unverified": [
+    "Portable UI launch",
+    "Installer, upgrade and uninstall",
+    "Native desktop workflows"
+  ],
+  "passed": 3,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "File manifest hashes match release payload",
+      "passed": true
+    },
+    {
+      "name": "Self-contained app initializes offscreen with no installed runtimes or developer PATH",
+      "passed": true
+    },
+    {
+      "name": "Packaged Swift bridge passes clean-environment integration",
+      "passed": true
+    }
+  ]
+}
