@@ -1,0 +1,3596 @@
+{
+  "createdUTC": "2026-09-29T06:32:35.0541887Z",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Home-populated-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Home-populated-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Dictionary-empty-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Dictionary-empty-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Dictionary-populated-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Dictionary-populated-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Dictionary search placeholder is visible in light",
+      "passed": true
+    },
+    {
+      "name": "Dictionary uppercase table headers in light",
+      "passed": true
+    },
+    {
+      "name": "Dictionary-entry-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Dictionary-entry-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Dictionary empty entry cannot save light",
+      "passed": true
+    },
+    {
+      "name": "Dictionary valid entry can save light",
+      "passed": true
+    },
+    {
+      "name": "Dictionary duplicate entry cannot save light",
+      "passed": true
+    },
+    {
+      "name": "Home-populated-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Home-populated-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Dictionary-empty-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Dictionary-empty-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Dictionary-populated-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Dictionary-populated-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Dictionary search placeholder is visible in dark",
+      "passed": true
+    },
+    {
+      "name": "Dictionary uppercase table headers in dark",
+      "passed": true
+    },
+    {
+      "name": "Dictionary-entry-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Dictionary-entry-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Dictionary empty entry cannot save dark",
+      "passed": true
+    },
+    {
+      "name": "Dictionary valid entry can save dark",
+      "passed": true
+    },
+    {
+      "name": "Dictionary duplicate entry cannot save dark",
+      "passed": true
+    },
+    {
+      "name": "Refine-selection-awaiting: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Refine-selection-awaiting: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Refine-caret-awaiting: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Refine-caret-awaiting: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Refine-copy-only-awaiting: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Refine-copy-only-awaiting: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Copy-only source remains readable and has no misleading app label",
+      "passed": true
+    },
+    {
+      "name": "Refine-selection-listening: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Refine-selection-listening: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Refine-selection-preview: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Refine-selection-preview: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Refine-changed-target-recovery: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Refine-changed-target-recovery: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Recovery notice has visible layout space",
+      "passed": true
+    },
+    {
+      "name": "Refine-uncertain-recovery: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Refine-uncertain-recovery: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Refine-selection-applied: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Refine-selection-applied: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Refine-caret-applied: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Refine-caret-applied: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Managed-account: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Managed-account: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Old provider navigation opens the managed account",
+      "passed": true
+    },
+    {
+      "name": "Provider-options-openAIResponses: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Provider-options-openAIResponses: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "openAIResponses: timeout is editable",
+      "passed": true
+    },
+    {
+      "name": "openAIResponses: temperature control follows capability",
+      "passed": true
+    },
+    {
+      "name": "Provider-options-anthropicMessages: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Provider-options-anthropicMessages: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "anthropicMessages: timeout is editable",
+      "passed": true
+    },
+    {
+      "name": "anthropicMessages: temperature control follows capability",
+      "passed": true
+    },
+    {
+      "name": "Provider-options-openAICompatibleChat: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Provider-options-openAICompatibleChat: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "openAICompatibleChat: timeout is editable",
+      "passed": true
+    },
+    {
+      "name": "openAICompatibleChat: temperature control follows capability",
+      "passed": true
+    },
+    {
+      "name": "Provider-options-codexAppServer: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Provider-options-codexAppServer: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "codexAppServer: timeout is editable",
+      "passed": true
+    },
+    {
+      "name": "codexAppServer: temperature control follows capability",
+      "passed": true
+    },
+    {
+      "name": "Provider-options-openAITranscription: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Provider-options-openAITranscription: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "openAITranscription: timeout is editable",
+      "passed": true
+    },
+    {
+      "name": "openAITranscription: temperature control follows capability",
+      "passed": true
+    },
+    {
+      "name": "Provider-options-openAICompatibleTranscription: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Provider-options-openAICompatibleTranscription: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "openAICompatibleTranscription: timeout is editable",
+      "passed": true
+    },
+    {
+      "name": "openAICompatibleTranscription: temperature control follows capability",
+      "passed": true
+    },
+    {
+      "name": "Dictation-audio-preferences: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Dictation-audio-preferences: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Audio preference controls are present",
+      "passed": true
+    },
+    {
+      "name": "Settings-General-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-General-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-General-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-General-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-Dictation-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Dictation-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Dictation-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Dictation-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-Permissions-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Permissions-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Permissions-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Permissions-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-Privacy-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Privacy-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Privacy-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Privacy-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-About-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-About-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-About-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-About-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-Presets-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Presets-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Presets-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Presets-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-Shortcuts-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Shortcuts-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Shortcuts-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Shortcuts-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-Dictionary-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Dictionary-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Dictionary-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Dictionary-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-General-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-General-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-General-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-General-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-Dictation-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Dictation-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Dictation-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Dictation-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-Permissions-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Permissions-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Permissions-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Permissions-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-Privacy-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Privacy-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Privacy-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Privacy-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-About-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-About-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-About-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-About-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-Presets-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Presets-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Presets-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Presets-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-Shortcuts-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Shortcuts-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Shortcuts-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Shortcuts-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-Dictionary-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Dictionary-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Dictionary-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-content-Dictionary-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Settings-General-minimum: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-General-minimum: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Welcome-1-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Welcome-1-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Welcome step 0 heading False",
+      "passed": true
+    },
+    {
+      "name": "Welcome-2-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Welcome-2-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Welcome step 1 heading False",
+      "passed": true
+    },
+    {
+      "name": "Welcome-3-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Welcome-3-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Welcome step 2 heading False",
+      "passed": true
+    },
+    {
+      "name": "Welcome-4-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Welcome-4-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Welcome step 3 heading False",
+      "passed": true
+    },
+    {
+      "name": "Welcome-5-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Welcome-5-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Welcome step 4 heading False",
+      "passed": true
+    },
+    {
+      "name": "Welcome-6-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Welcome-6-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Welcome step 5 heading False",
+      "passed": true
+    },
+    {
+      "name": "Incomplete guide offers finish later False",
+      "passed": true
+    },
+    {
+      "name": "Welcome-return-to-sample-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Welcome-return-to-sample-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Guide can return to sample step False",
+      "passed": true
+    },
+    {
+      "name": "Welcome-1-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Welcome-1-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Welcome step 0 heading True",
+      "passed": true
+    },
+    {
+      "name": "Welcome-2-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Welcome-2-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Welcome step 1 heading True",
+      "passed": true
+    },
+    {
+      "name": "Welcome-3-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Welcome-3-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Welcome step 2 heading True",
+      "passed": true
+    },
+    {
+      "name": "Welcome-4-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Welcome-4-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Welcome step 3 heading True",
+      "passed": true
+    },
+    {
+      "name": "Welcome-5-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Welcome-5-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Welcome step 4 heading True",
+      "passed": true
+    },
+    {
+      "name": "Welcome-6-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Welcome-6-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Welcome step 5 heading True",
+      "passed": true
+    },
+    {
+      "name": "Incomplete guide offers finish later True",
+      "passed": true
+    },
+    {
+      "name": "Welcome-return-to-sample-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Welcome-return-to-sample-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Guide can return to sample step True",
+      "passed": true
+    },
+    {
+      "name": "General provides Cadence sign-in without personal keys or model pickers",
+      "passed": true
+    },
+    {
+      "name": "General names both included models Default",
+      "passed": true
+    },
+    {
+      "name": "Customer General excludes personal connection instructions",
+      "passed": true
+    },
+    {
+      "name": "Customer recovery hides upstream details: provider.auth",
+      "passed": true
+    },
+    {
+      "name": "Customer recovery hides upstream details: provider.missingSecret",
+      "passed": true
+    },
+    {
+      "name": "Customer recovery hides upstream details: provider.notConfigured",
+      "passed": true
+    },
+    {
+      "name": "Customer recovery hides upstream details: provider.modelUnavailable",
+      "passed": true
+    },
+    {
+      "name": "Customer recovery hides upstream details: provider.badResponse",
+      "passed": true
+    },
+    {
+      "name": "Customer recovery hides upstream details: codex",
+      "passed": true
+    },
+    {
+      "name": "Customer recovery hides upstream details: ",
+      "passed": true
+    },
+    {
+      "name": "Customer recovery preserves native insertion guidance",
+      "passed": true
+    },
+    {
+      "name": "Settings-Dictation-minimum: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Dictation-minimum: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Microphone test has an inline input meter",
+      "passed": true
+    },
+    {
+      "name": "Spoken instruction auto-submit is opt-in",
+      "passed": true
+    },
+    {
+      "name": "Themed editable language picker accepts typed input",
+      "passed": true
+    },
+    {
+      "name": "Settings-General-automatic-save: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-General-automatic-save: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "General: no global save button",
+      "passed": true
+    },
+    {
+      "name": "Settings-Dictation-automatic-save: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Dictation-automatic-save: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Dictation: no global save button",
+      "passed": true
+    },
+    {
+      "name": "Settings-Shortcuts-automatic-save: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Shortcuts-automatic-save: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Shortcuts: no global save button",
+      "passed": true
+    },
+    {
+      "name": "Settings-Presets-automatic-save: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Presets-automatic-save: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Presets: no global save button",
+      "passed": true
+    },
+    {
+      "name": "Settings-Dictionary-automatic-save: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Dictionary-automatic-save: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Dictionary: no global save button",
+      "passed": true
+    },
+    {
+      "name": "Settings-Privacy-automatic-save: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Privacy-automatic-save: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Privacy: no global save button",
+      "passed": true
+    },
+    {
+      "name": "Settings-Permissions-automatic-save: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-Permissions-automatic-save: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Permissions: no global save button",
+      "passed": true
+    },
+    {
+      "name": "Settings-About-automatic-save: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Settings-About-automatic-save: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "About: no global save button",
+      "passed": true
+    },
+    {
+      "name": "Presets-list-and-editor: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Presets-list-and-editor: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Eight built-in presets are available",
+      "passed": true
+    },
+    {
+      "name": "Presets-translation-editor: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Presets-translation-editor: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Translation preset exposes its persisted language",
+      "passed": true
+    },
+    {
+      "name": "Composition cannot use Create AI prompt",
+      "passed": true
+    },
+    {
+      "name": "Selection offers Create AI prompt separately from saved presets",
+      "passed": true
+    },
+    {
+      "name": "Privacy-insertion-policies: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Privacy-insertion-policies: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Privacy exposes clipboard capture fallback and exact blocked app list",
+      "passed": true
+    },
+    {
+      "name": "Refine-long-recovery-selection: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Refine-long-recovery-selection: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Long recovery is scrollable within compact panel False",
+      "passed": true
+    },
+    {
+      "name": "Last recovery line is reachable False",
+      "passed": true
+    },
+    {
+      "name": "New recovery notice begins at top False",
+      "passed": true
+    },
+    {
+      "name": "Refine-long-recovery-compose: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Refine-long-recovery-compose: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Long recovery is scrollable within compact panel True",
+      "passed": true
+    },
+    {
+      "name": "Last recovery line is reachable True",
+      "passed": true
+    },
+    {
+      "name": "New recovery notice begins at top True",
+      "passed": true
+    },
+    {
+      "name": "Tray-ready-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Tray-ready-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Tray tidy toggle invokes persistence light",
+      "passed": true
+    },
+    {
+      "name": "Tray-no-target-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Tray-no-target-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Tray refuses input actions without a retained target light",
+      "passed": true
+    },
+    {
+      "name": "Tray tidy toggle invokes persistence light",
+      "passed": true
+    },
+    {
+      "name": "Tray-recording-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Tray-recording-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Tray permits Stop and Cancel while busy light",
+      "passed": true
+    },
+    {
+      "name": "Tray tidy toggle invokes persistence light",
+      "passed": true
+    },
+    {
+      "name": "Tray-setup-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Tray-setup-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Tray tidy toggle invokes persistence light",
+      "passed": true
+    },
+    {
+      "name": "Tray action works start light",
+      "passed": true
+    },
+    {
+      "name": "Tray action works rewrite light",
+      "passed": true
+    },
+    {
+      "name": "Tray action works home light",
+      "passed": true
+    },
+    {
+      "name": "Tray action works settings light",
+      "passed": true
+    },
+    {
+      "name": "Tray action works quit light",
+      "passed": true
+    },
+    {
+      "name": "Tray action works stop light",
+      "passed": true
+    },
+    {
+      "name": "Tray action works cancel light",
+      "passed": true
+    },
+    {
+      "name": "Tray action works setup light",
+      "passed": true
+    },
+    {
+      "name": "Tray prevents new actions during settings commit light",
+      "passed": true
+    },
+    {
+      "name": "Tray-short-work-area-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Tray-short-work-area-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Short tray work area can scroll all actions light",
+      "passed": true
+    },
+    {
+      "name": "Short tray footer is fully reachable light",
+      "passed": true
+    },
+    {
+      "name": "Tray-short-work-area-footer-light: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Tray-short-work-area-footer-light: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Tray-ready-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Tray-ready-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Tray tidy toggle invokes persistence dark",
+      "passed": true
+    },
+    {
+      "name": "Tray-no-target-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Tray-no-target-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Tray refuses input actions without a retained target dark",
+      "passed": true
+    },
+    {
+      "name": "Tray tidy toggle invokes persistence dark",
+      "passed": true
+    },
+    {
+      "name": "Tray-recording-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Tray-recording-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Tray permits Stop and Cancel while busy dark",
+      "passed": true
+    },
+    {
+      "name": "Tray tidy toggle invokes persistence dark",
+      "passed": true
+    },
+    {
+      "name": "Tray-setup-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Tray-setup-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Tray tidy toggle invokes persistence dark",
+      "passed": true
+    },
+    {
+      "name": "Tray action works start dark",
+      "passed": true
+    },
+    {
+      "name": "Tray action works rewrite dark",
+      "passed": true
+    },
+    {
+      "name": "Tray action works home dark",
+      "passed": true
+    },
+    {
+      "name": "Tray action works settings dark",
+      "passed": true
+    },
+    {
+      "name": "Tray action works quit dark",
+      "passed": true
+    },
+    {
+      "name": "Tray action works stop dark",
+      "passed": true
+    },
+    {
+      "name": "Tray action works cancel dark",
+      "passed": true
+    },
+    {
+      "name": "Tray action works setup dark",
+      "passed": true
+    },
+    {
+      "name": "Tray prevents new actions during settings commit dark",
+      "passed": true
+    },
+    {
+      "name": "Tray-short-work-area-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Tray-short-work-area-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Short tray work area can scroll all actions dark",
+      "passed": true
+    },
+    {
+      "name": "Short tray footer is fully reachable dark",
+      "passed": true
+    },
+    {
+      "name": "Tray-short-work-area-footer-dark: no visible or native window",
+      "passed": true
+    },
+    {
+      "name": "Tray-short-work-area-footer-dark: render did not create a native handle",
+      "passed": true
+    },
+    {
+      "name": "Shortcut capture permits Tab and Shift Tab navigation and Escape",
+      "passed": true
+    },
+    {
+      "name": "Shortcut capture retains ordinary modified key combinations",
+      "passed": true
+    },
+    {
+      "name": "All fixture windows remained offscreen",
+      "passed": true
+    },
+    {
+      "name": "Embedded Dictionary windows also remained offscreen",
+      "passed": true
+    }
+  ],
+  "images": [
+    {
+      "file": "Home-populated-light-100.png",
+      "width": 1536,
+      "height": 1024,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "12c387d003ba8d94aa17ca24520822c475d5790e4f0564c79fce90251bd1e439"
+    },
+    {
+      "file": "Home-populated-light-150.png",
+      "width": 2304,
+      "height": 1536,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "edaa1c686dbe7a05db9199674211d89d0bcb347ac6b27aee5051ddd92b52353f"
+    },
+    {
+      "file": "Home-populated-light-200.png",
+      "width": 3072,
+      "height": 2048,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "56790088cebccdf27a7f8029565b1fa7991d28e32d2b9562e8694c2a3f4810db"
+    },
+    {
+      "file": "Dictionary-empty-light-100.png",
+      "width": 1536,
+      "height": 1024,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "5d4822be23404d41b12474948feed1b51a3558d73c902cafd3ad7e442d393e25"
+    },
+    {
+      "file": "Dictionary-empty-light-150.png",
+      "width": 2304,
+      "height": 1536,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "36e39d14a85d23735aa1a9ecf3735e95e7c9f8bb7f76bd55edf751ea9d60f705"
+    },
+    {
+      "file": "Dictionary-empty-light-200.png",
+      "width": 3072,
+      "height": 2048,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "089c588a85f57c3098645c7e8798680aab7797e0f11827e047f0249d6986aab4"
+    },
+    {
+      "file": "Dictionary-populated-light-100.png",
+      "width": 1536,
+      "height": 1024,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "f571ba7280bedb910d4508bf3ffdbf2e4ced9200c6d7602a64ee445b5de17062"
+    },
+    {
+      "file": "Dictionary-populated-light-150.png",
+      "width": 2304,
+      "height": 1536,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "d5ee0d84a3e7661c31fffde43647e336e37b6199de896a4c3840cd55d14ba10d"
+    },
+    {
+      "file": "Dictionary-populated-light-200.png",
+      "width": 3072,
+      "height": 2048,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "011c0b74aab64e8a233e3f11e146898feec25c784b18c52da802e0aa085102df"
+    },
+    {
+      "file": "Dictionary-entry-light-100.png",
+      "width": 440,
+      "height": 357,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "019b90a3cbae9bb0cca1df13e16f86b2655bcc35c5fb7aac21c75a2b18f9857a"
+    },
+    {
+      "file": "Dictionary-entry-light-150.png",
+      "width": 660,
+      "height": 535,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "a29a81d37865d63cc25c00f8907598273669726bb2b3a6148a4d2a438e1b5077"
+    },
+    {
+      "file": "Dictionary-entry-light-200.png",
+      "width": 880,
+      "height": 713,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "f576b3188087dde28d71e94a8961f28cb717b315059acbad6fbeb74f68c466ca"
+    },
+    {
+      "file": "Home-populated-dark-100.png",
+      "width": 1536,
+      "height": 1024,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "51ce87e1ab2f334b1673f905a1081fab169950705a159c211f9c7d912866a8b0"
+    },
+    {
+      "file": "Home-populated-dark-150.png",
+      "width": 2304,
+      "height": 1536,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "c150068ab60b24f414859c8e3aeea24b8576df5144ec02e951037d45eaeb0d2b"
+    },
+    {
+      "file": "Home-populated-dark-200.png",
+      "width": 3072,
+      "height": 2048,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "2f1a9a7b9765cfa26e1cdae1b716074839d15ea304e97b4d3df02423cebd1afe"
+    },
+    {
+      "file": "Dictionary-empty-dark-100.png",
+      "width": 1536,
+      "height": 1024,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "6ea24e7ca1a9bd3d423c89fe3811bcb7d9cca93b722f6fa781e1c9c8c834f19e"
+    },
+    {
+      "file": "Dictionary-empty-dark-150.png",
+      "width": 2304,
+      "height": 1536,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "57e4a32142887288e23565ec66f3045648d2b8a848698860341c272db076d3c2"
+    },
+    {
+      "file": "Dictionary-empty-dark-200.png",
+      "width": 3072,
+      "height": 2048,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "7f361089607059ad365a39228cb072ac7124cd0cb59dd4e9813be790f9a68d33"
+    },
+    {
+      "file": "Dictionary-populated-dark-100.png",
+      "width": 1536,
+      "height": 1024,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "7649336fc6b30fb803adac7ee9189fef25e94b8cbb1dcf52e011345b1da7a8fe"
+    },
+    {
+      "file": "Dictionary-populated-dark-150.png",
+      "width": 2304,
+      "height": 1536,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8b77adf75cda765c4de2b8baeb320923d5d1e34d3c1a86da11b94c1f7ddadc64"
+    },
+    {
+      "file": "Dictionary-populated-dark-200.png",
+      "width": 3072,
+      "height": 2048,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "f1ee1e2131305a553ffc9695316ab7077ff0f75d467cd9a54caf08ac15cb087b"
+    },
+    {
+      "file": "Dictionary-entry-dark-100.png",
+      "width": 440,
+      "height": 357,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "1a8291704666b70c448a224d625037959fc06a9750ae8c1bb4eaf50bae0a78b4"
+    },
+    {
+      "file": "Dictionary-entry-dark-150.png",
+      "width": 660,
+      "height": 535,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "63e9a9515b77153098301315defc914af05ec3db3945e628187a12d70b01046f"
+    },
+    {
+      "file": "Dictionary-entry-dark-200.png",
+      "width": 880,
+      "height": 713,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "51ead053d9bb3fd92b66e3fd8279adadf4ffd48f82fabaea0bfb65ceba3962fc"
+    },
+    {
+      "file": "Refine-selection-awaiting-100.png",
+      "width": 380,
+      "height": 194,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "0b4c0e69490c0d736ddc9584ae7b64121a3bc34249c4753238a191893f857923"
+    },
+    {
+      "file": "Refine-selection-awaiting-150.png",
+      "width": 570,
+      "height": 291,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "b53a5f304be7e7209a5f4b6d892e89d5e40b3697d5fcb217723a4d2e77f63f8a"
+    },
+    {
+      "file": "Refine-selection-awaiting-200.png",
+      "width": 760,
+      "height": 388,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "7c86ad10a7530a1ab283b2afc1699ea0c0ed974c9feafb1a6b267f220334f978"
+    },
+    {
+      "file": "Refine-caret-awaiting-100.png",
+      "width": 380,
+      "height": 194,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "ed0c86a0e8b9dced276d0a385b02f4a19f90cbba6c1af94dc33c577f850b5a9c"
+    },
+    {
+      "file": "Refine-caret-awaiting-150.png",
+      "width": 570,
+      "height": 291,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "71de32f9c8f3ed933cf2c2eaefc229a9c7713337c3ba5f4df15ad80aa4b903b8"
+    },
+    {
+      "file": "Refine-caret-awaiting-200.png",
+      "width": 760,
+      "height": 388,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "9c4b1e696ea3ddbef20161caa5e9e7c8c52f8e2cb3332bf537bb6c0a5f73e609"
+    },
+    {
+      "file": "Refine-copy-only-awaiting-100.png",
+      "width": 380,
+      "height": 194,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8d1d3f852020c69e5ed945d872dc99c1c796c8671b5f33963ae72d67503707c7"
+    },
+    {
+      "file": "Refine-copy-only-awaiting-150.png",
+      "width": 570,
+      "height": 291,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "19bca3d738794096d624e1bb5360484007a7b86c327c16d2e1c809a0561cd028"
+    },
+    {
+      "file": "Refine-copy-only-awaiting-200.png",
+      "width": 760,
+      "height": 388,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "39c6c2aaa2cd62f0f4acad7194c1cc9f9e0cbd5e422e3d816ab109df1e6129c2"
+    },
+    {
+      "file": "Refine-selection-listening-100.png",
+      "width": 380,
+      "height": 218,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "fb0d215d4001d7ef7e62228fe4ecac0d5d77534073fb3b570b7fff3b64140c90"
+    },
+    {
+      "file": "Refine-selection-listening-150.png",
+      "width": 570,
+      "height": 327,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8ea02b70ce81e6960e152e1be0ceb4fa4fee525f155cdeb601b08ef283d9541f"
+    },
+    {
+      "file": "Refine-selection-listening-200.png",
+      "width": 760,
+      "height": 436,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "5abbf057dc576eb3ce3e618ac59c5da08c3797d6ee42c85566fbfe83cd5ee2d6"
+    },
+    {
+      "file": "Refine-selection-preview-100.png",
+      "width": 380,
+      "height": 320,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "5e7d61a48e3056a40dbbbddd645589c7ccd0c2e4cc06061b54b29ace066bf1ab"
+    },
+    {
+      "file": "Refine-selection-preview-150.png",
+      "width": 570,
+      "height": 480,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "502315d516e2dce1fe40c0be2ee6a1d5d7ccbe76c62177a4323d12bf358bf65a"
+    },
+    {
+      "file": "Refine-selection-preview-200.png",
+      "width": 760,
+      "height": 640,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "27ca226491cb337cae012950bfbe0fac5dca56db2ac366a2049063986c1f5659"
+    },
+    {
+      "file": "Refine-changed-target-recovery-100.png",
+      "width": 380,
+      "height": 368,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "1a6aee8d3590eec79c072b2ebd44c647c0f935d53abe459904d45d2172e0164f"
+    },
+    {
+      "file": "Refine-changed-target-recovery-150.png",
+      "width": 570,
+      "height": 552,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8c5d3f2eb09014367aef956ed564e4710e61cc7a7b93fe5bb0f44647e466abe0"
+    },
+    {
+      "file": "Refine-changed-target-recovery-200.png",
+      "width": 760,
+      "height": 736,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "3bd3c3e02ab44a4b1d96c89d25d7b5e6c9267d333a061ba5376084158214b4d3"
+    },
+    {
+      "file": "Refine-uncertain-recovery-100.png",
+      "width": 380,
+      "height": 368,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8d09cddfafb011e25a3ca84a55c64203fa522f2d75cd36fca0f2002c2eb346a7"
+    },
+    {
+      "file": "Refine-uncertain-recovery-150.png",
+      "width": 570,
+      "height": 552,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "17866a831a68e9aa9f32b5c1334393c27c0990145ef55e08af25affda99da26d"
+    },
+    {
+      "file": "Refine-uncertain-recovery-200.png",
+      "width": 760,
+      "height": 736,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "26586f70cf6329e7e519caece96df031c875c85095abef94f5efaa6a25829943"
+    },
+    {
+      "file": "Refine-selection-applied-100.png",
+      "width": 380,
+      "height": 72,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "5b4670ec99d9c2a49e602cee9bbfaf880d1cd656dd311d2c297b17dd944f1208"
+    },
+    {
+      "file": "Refine-selection-applied-150.png",
+      "width": 570,
+      "height": 108,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "6f78f9fd53047621f365353c15155e036484056672682bc08d75bf240f6f7b32"
+    },
+    {
+      "file": "Refine-selection-applied-200.png",
+      "width": 760,
+      "height": 144,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "a618b79ceb3b000c458c9194e27442b656dba05760e9a09ef1c91836324d5c55"
+    },
+    {
+      "file": "Refine-caret-applied-100.png",
+      "width": 380,
+      "height": 72,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "532f4522e2545e5915dda7880679de5a00863dcd261743df69b5763487ae9774"
+    },
+    {
+      "file": "Refine-caret-applied-150.png",
+      "width": 570,
+      "height": 108,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "d2948b87554f5d4838f82dc11237934cd045b0cf680bccc9afe8246f32bbb92a"
+    },
+    {
+      "file": "Refine-caret-applied-200.png",
+      "width": 760,
+      "height": 144,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "208416044faee9e3b439c5c7cb1d204eba6ee16339f5ccd0e51abda5f86423b4"
+    },
+    {
+      "file": "Managed-account-100.png",
+      "width": 1060,
+      "height": 830,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "99f017cc24fa269bea494bd52e419c97b4eab9c8fc9e2b5ae4d88ea046b031a7"
+    },
+    {
+      "file": "Managed-account-150.png",
+      "width": 1590,
+      "height": 1245,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "1563372b8c575cf7d860fa60ea759bda93810a1e0cb2537badd2cfb69e696960"
+    },
+    {
+      "file": "Managed-account-200.png",
+      "width": 2120,
+      "height": 1660,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "2ccf9bbbe74d7e2d24a67ca84e34eeeb62b869df1cae7b9d5c1f066ea5a6adfc"
+    },
+    {
+      "file": "Provider-options-openAIResponses-100.png",
+      "width": 620,
+      "height": 339,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "1f3fb4f9703bad8ec0e91769c6f0976874f7f49ef7d9c04694e9cc3983acaf0c"
+    },
+    {
+      "file": "Provider-options-openAIResponses-150.png",
+      "width": 930,
+      "height": 508,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "4a2db78f68ddd88684c1813e1245722af6a19e04519b4a926fbf9dbb0a3a7186"
+    },
+    {
+      "file": "Provider-options-openAIResponses-200.png",
+      "width": 1240,
+      "height": 677,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "79356f3539fcf297fd152fc7fd062c48f4dddbefed015d7aac9f6c82e266a1ea"
+    },
+    {
+      "file": "Provider-options-anthropicMessages-100.png",
+      "width": 620,
+      "height": 273,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "a9957842446b989190a77c288630c5db0c6e8f154cdd1b1f1e25b95e7eff0358"
+    },
+    {
+      "file": "Provider-options-anthropicMessages-150.png",
+      "width": 930,
+      "height": 410,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "4b64256d8c716bf20971ef692f75e126e5995d65f7e62318f7e2943fd6d95e80"
+    },
+    {
+      "file": "Provider-options-anthropicMessages-200.png",
+      "width": 1240,
+      "height": 546,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "81cec1acbbd115b475e84eade2d870078b6229c4663c3ae25c1488414f2e3ca6"
+    },
+    {
+      "file": "Provider-options-openAICompatibleChat-100.png",
+      "width": 620,
+      "height": 393,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "cd03f9c28871c4e2746d651c16110f589085e49601c590c58b94df6b35cebdba"
+    },
+    {
+      "file": "Provider-options-openAICompatibleChat-150.png",
+      "width": 930,
+      "height": 589,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "ac2648d84ddd600f3b8402c513efa7ef2e8a01e7387899e7b360bc5084f55572"
+    },
+    {
+      "file": "Provider-options-openAICompatibleChat-200.png",
+      "width": 1240,
+      "height": 785,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "d43d2129a630e1fff40d400634d697bc1adc110a30eaa819b9437dc4dddbb7c2"
+    },
+    {
+      "file": "Provider-options-codexAppServer-100.png",
+      "width": 620,
+      "height": 236,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "454e25f15743be18eed773c38df84e34343af15cd0797af37bad40028ff6a6d7"
+    },
+    {
+      "file": "Provider-options-codexAppServer-150.png",
+      "width": 930,
+      "height": 354,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "c9a832726fcec468199131ab87816ff781cdae09cfba14abd8fb9191bb381cc9"
+    },
+    {
+      "file": "Provider-options-codexAppServer-200.png",
+      "width": 1240,
+      "height": 471,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "d70afd0286200c087c1027da112686ad48aff079f875ad02a907b65884b54354"
+    },
+    {
+      "file": "Provider-options-openAITranscription-100.png",
+      "width": 620,
+      "height": 314,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "2ab6f42d88290a37ceca8f1e039a0c9d06ee9ab1f9bce69c8c6fe3f072a664f9"
+    },
+    {
+      "file": "Provider-options-openAITranscription-150.png",
+      "width": 930,
+      "height": 470,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "5c42f7f03a2d2269ccda95b4771dfcf42345d04eb81f18109b59bb48104f8c96"
+    },
+    {
+      "file": "Provider-options-openAITranscription-200.png",
+      "width": 1240,
+      "height": 627,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "ea763e646952dcc4e7b86095f1158d80d88bd3d881b0961191c6e800cc89d2a8"
+    },
+    {
+      "file": "Provider-options-openAICompatibleTranscription-100.png",
+      "width": 620,
+      "height": 314,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "2ab6f42d88290a37ceca8f1e039a0c9d06ee9ab1f9bce69c8c6fe3f072a664f9"
+    },
+    {
+      "file": "Provider-options-openAICompatibleTranscription-150.png",
+      "width": 930,
+      "height": 470,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "5c42f7f03a2d2269ccda95b4771dfcf42345d04eb81f18109b59bb48104f8c96"
+    },
+    {
+      "file": "Provider-options-openAICompatibleTranscription-200.png",
+      "width": 1240,
+      "height": 627,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "ea763e646952dcc4e7b86095f1158d80d88bd3d881b0961191c6e800cc89d2a8"
+    },
+    {
+      "file": "Dictation-audio-preferences-100.png",
+      "width": 1060,
+      "height": 830,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "de4f5a1c22c28bdb09fd4ccdaf6674e885b8a54f1f07a2fc430c5930eae76bb4"
+    },
+    {
+      "file": "Dictation-audio-preferences-150.png",
+      "width": 1590,
+      "height": 1245,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "00d12c236e616fb10e259d422137f65cf6951f64bba3955188d420e17489b3f1"
+    },
+    {
+      "file": "Dictation-audio-preferences-200.png",
+      "width": 2120,
+      "height": 1660,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "ade37aa1b1531d44d947c5f0d47b9aaa973885f45d913be70630a1a4b8457764"
+    },
+    {
+      "file": "Settings-General-light-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "6d021939046913b4d4ac9dab4366c3eba1249fe93bb096f526acd426ee0b3ef7"
+    },
+    {
+      "file": "Settings-General-light-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "ffe8464ab1e19de5aa6b2471bab079a53f43eef69c13797302b3f835120a9fa0"
+    },
+    {
+      "file": "Settings-General-light-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "6a84d3723bcc22732a81e0677ca81d16e4c879bb9a3c9ff00b30a15fcd1e7c79"
+    },
+    {
+      "file": "Settings-content-General-light-100.png",
+      "width": 660,
+      "height": 839,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "5164a4ed841d02963ff8929a0370078a9a22f0730c29b18cf20a96e2607424b5"
+    },
+    {
+      "file": "Settings-content-General-light-150.png",
+      "width": 990,
+      "height": 1259,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "4171c2cc3e9c9ba865848f8c2c93ceb6e1ea445f68316e2ad3100c0e9fbc3e1f"
+    },
+    {
+      "file": "Settings-content-General-light-200.png",
+      "width": 1320,
+      "height": 1678,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "e74bf0dee61e8d9da2e07e9960232da84c5b0e9be691b6f818270f655f756f0e"
+    },
+    {
+      "file": "Settings-Dictation-light-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "42b8ad9e6c93f1d6aee8eb02f6cffe2e6a6dda7bc77475e564f17bc3e02972dd"
+    },
+    {
+      "file": "Settings-Dictation-light-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "22cbe9673720e29e7ee0a0043068fcf44255d658dccb71b18c1c55d0e66b3459"
+    },
+    {
+      "file": "Settings-Dictation-light-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "e1ab514e67c9c3f8f3777fff216e7a44e4a03d2d61ab47e26369e70414807dca"
+    },
+    {
+      "file": "Settings-content-Dictation-light-100.png",
+      "width": 660,
+      "height": 980,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "3bf7b0a224f0188c7f760cafc9e4aa83086181e619721c50b8124e0a66a1efc1"
+    },
+    {
+      "file": "Settings-content-Dictation-light-150.png",
+      "width": 990,
+      "height": 1469,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "a0ee5b4b595370f9753877c4e9bacfcdd9db3e3ed142bd6fb8bc037f06e9c463"
+    },
+    {
+      "file": "Settings-content-Dictation-light-200.png",
+      "width": 1320,
+      "height": 1959,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "10f4392e9f6668086779073f6f44a7e1022ac529838691907f81a6cb34ce018c"
+    },
+    {
+      "file": "Settings-Permissions-light-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "c627282f3be35d22f9065ed92bc43ab4e49218b2bcae70c3878f92313bf03ef4"
+    },
+    {
+      "file": "Settings-Permissions-light-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "23cb7a4d7dada6f2fd8a1346bb1e0b18549b44df01e700225acb3ef78af6a8a4"
+    },
+    {
+      "file": "Settings-Permissions-light-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "45d5181c85030722c95c13f4172452d27ca9de08cb4505787bbaa160f9c28a3e"
+    },
+    {
+      "file": "Settings-content-Permissions-light-100.png",
+      "width": 660,
+      "height": 515,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "a497275c4cae16c7cfb23767bc4681b02dfce6a7f02ebe2b75a65cedb689b96b"
+    },
+    {
+      "file": "Settings-content-Permissions-light-150.png",
+      "width": 990,
+      "height": 772,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "fd255c68b2e9d166d426f906017fe15dbf7e0e7422771c179a47fbfec5ad044f"
+    },
+    {
+      "file": "Settings-content-Permissions-light-200.png",
+      "width": 1320,
+      "height": 1029,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "67cdeaf974550e98a1c195d688fb0c4593c36909eda1f62980f3ffcf9f58e09e"
+    },
+    {
+      "file": "Settings-Privacy-light-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "36932177f0921df23b5697545151fede0562b6eb513cd1c00aa0142e8b717719"
+    },
+    {
+      "file": "Settings-Privacy-light-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "5c209e7717a3046fe35a5706989a34b225e9c7ca8f4cb9e53ec06d01c782150d"
+    },
+    {
+      "file": "Settings-Privacy-light-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "b92ff2977ed1834ba8e3f168e61e6e41d96360ca60b1f5f1b69213607cc33b73"
+    },
+    {
+      "file": "Settings-content-Privacy-light-100.png",
+      "width": 660,
+      "height": 1166,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8f17c8d2916648c82fa6e070b723f5b88fda50ce6e0d21f37af46e1605abde61"
+    },
+    {
+      "file": "Settings-content-Privacy-light-150.png",
+      "width": 990,
+      "height": 1749,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "1470b7d029ec47e9db4c20b573abfa08f15969ae6648bc73271cf5192f2359a9"
+    },
+    {
+      "file": "Settings-content-Privacy-light-200.png",
+      "width": 1320,
+      "height": 2331,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "f3e911d692d60fb8c667f71e182b67467f9be6de59d50a3f4e33a0435d76ec95"
+    },
+    {
+      "file": "Settings-About-light-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "f3c23cd5eab463c3b17bae64de19e2ffc5c1fc7f09743b88b762eb8a20d01e34"
+    },
+    {
+      "file": "Settings-About-light-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "1c7f0c24fc8511c8996c3a30cf18015a25561d7ea1bf0fa07b09e081cf62dee8"
+    },
+    {
+      "file": "Settings-About-light-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "5ea2d10898a55ac846b6c8d3c3c395c91b92795363c98d03cba88cc9a05305df"
+    },
+    {
+      "file": "Settings-content-About-light-100.png",
+      "width": 660,
+      "height": 539,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8e5eeb57d7b303432d1e090db4554fa8378dd6422916e43bdc5bf1bed104643f"
+    },
+    {
+      "file": "Settings-content-About-light-150.png",
+      "width": 990,
+      "height": 809,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "b3da4742835db67e72d0fe1ed93b794fdaad0a6fed13617c14aff41cbaf114d4"
+    },
+    {
+      "file": "Settings-content-About-light-200.png",
+      "width": 1320,
+      "height": 1078,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "37f1e75c95d7d99ff5ccef16edd850cba0c07876b785342f0d6f34d580a642a9"
+    },
+    {
+      "file": "Settings-Presets-light-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "d20291d56d2a2307dd00f895f744e9f9c755fa5386d3467c8a4f59930e8835f3"
+    },
+    {
+      "file": "Settings-Presets-light-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "b3170c5dd21b0bb8e899469fa687b37424652be42a63f31b217f9fd97d6af9b6"
+    },
+    {
+      "file": "Settings-Presets-light-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "05333779234b03de4019dc26f404f17fa7df7fb93086192853e9dc7ae8d830f4"
+    },
+    {
+      "file": "Settings-content-Presets-light-100.png",
+      "width": 660,
+      "height": 831,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "ec73bdd05730fcad18d5a5e6430a14f4b7aef648d4e015307ac3dcaecdd05ad2"
+    },
+    {
+      "file": "Settings-content-Presets-light-150.png",
+      "width": 990,
+      "height": 1246,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "d3823257b4404518914b74a50bc300f5ad782f22aa97012a2e3f9f43bb25bce8"
+    },
+    {
+      "file": "Settings-content-Presets-light-200.png",
+      "width": 1320,
+      "height": 1661,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "100f1d30e8e3af6a9ab6595b3e9928466ee1bacbac7b96c453c188506e4d5176"
+    },
+    {
+      "file": "Settings-Shortcuts-light-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "010d0abe40c310ea42eb028d9034caad0e9d32d1f72d2e50465c2c47b121383e"
+    },
+    {
+      "file": "Settings-Shortcuts-light-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "0798826f98847bfdc9adcbd40577126de2398260b3953344deeef9e018a673e1"
+    },
+    {
+      "file": "Settings-Shortcuts-light-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "5d9a5cb0619ccdd9bf9514cac785a8335eddcbdca5865edc5f624c79cf7e2d04"
+    },
+    {
+      "file": "Settings-content-Shortcuts-light-100.png",
+      "width": 660,
+      "height": 691,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "fe56782eabad1acc10adab03c4c6471ac5f78209bd86d0958d35a0023d88527f"
+    },
+    {
+      "file": "Settings-content-Shortcuts-light-150.png",
+      "width": 990,
+      "height": 1036,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8ef26c9339f5f3dae7e6cd618231cfbf2e19eff0d99e06c016f767d405deec2a"
+    },
+    {
+      "file": "Settings-content-Shortcuts-light-200.png",
+      "width": 1320,
+      "height": 1381,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "e9b73ec689b4f1cfc5f9c5fd1116bbf9d618c64d3d20fd2b75dffd7892fda0e5"
+    },
+    {
+      "file": "Settings-Dictionary-light-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "f9fd2f616dbf7510cf69044a9658a58fcfc603ae24a9dfae03e324d253c3f9ee"
+    },
+    {
+      "file": "Settings-Dictionary-light-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8906486f93a2f164d7e356e9eba60b0b47ba5117ad4347d8d10f3ee089d376ef"
+    },
+    {
+      "file": "Settings-Dictionary-light-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "c2442ec3affd146b80d00f5f7592f7e91572241d29f280fa960f01f4f8c32173"
+    },
+    {
+      "file": "Settings-content-Dictionary-light-100.png",
+      "width": 660,
+      "height": 651,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "fdbc6872b23c117bb903fe278756c141e72f9c3fc5de8f7fdd769c55f391e10c"
+    },
+    {
+      "file": "Settings-content-Dictionary-light-150.png",
+      "width": 990,
+      "height": 976,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "b7926225f101a0b19c6ce19607cb194780dbf723546fcded5355e6d6257a0503"
+    },
+    {
+      "file": "Settings-content-Dictionary-light-200.png",
+      "width": 1320,
+      "height": 1301,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "42f7af89ce4583157bee47cc5bc0abc408d9201b7edaf2213176d0b40833b966"
+    },
+    {
+      "file": "Settings-General-dark-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "119f57d6ea937fe50b76ba349f21a2498734167a28d36c69fb8830466f4c91ea"
+    },
+    {
+      "file": "Settings-General-dark-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "22d7995582ca13b80a173fce1a551740726ae966c16d3d22388b724b1cd11572"
+    },
+    {
+      "file": "Settings-General-dark-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "d39c321fef68e02e17eb573ea460e6ab3a5fe468bc9bc6bda4dc19bdbbf9e542"
+    },
+    {
+      "file": "Settings-content-General-dark-100.png",
+      "width": 660,
+      "height": 839,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "48112fcc78bff9b0696d12924e417bafd453d595d3f28bb3da3b8c68d50933af"
+    },
+    {
+      "file": "Settings-content-General-dark-150.png",
+      "width": 990,
+      "height": 1259,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "cc2ede5eb38aa9d839de7352c6b65ade57c10fef26cf0ca3edc4be88ce2f7c46"
+    },
+    {
+      "file": "Settings-content-General-dark-200.png",
+      "width": 1320,
+      "height": 1678,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "6fe131ac6add9d33b8ba898f1ca450675474d398f05175231ef257df6e191740"
+    },
+    {
+      "file": "Settings-Dictation-dark-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "27ea842bd4702a2fba86ac0eb9a1fbaeca8eedfc6d1a81f518fa5ba21fd82358"
+    },
+    {
+      "file": "Settings-Dictation-dark-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "5950702654e35ea75bc694f142ad5567f2f49d6f91f08b59da2c7974b8e243b6"
+    },
+    {
+      "file": "Settings-Dictation-dark-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "dd608a276b92349c22704c5933c348f705134b6bff5339d0f3181570b3843f3c"
+    },
+    {
+      "file": "Settings-content-Dictation-dark-100.png",
+      "width": 660,
+      "height": 980,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "a467dcc13f624d1b5f5d2a0eae3e4d80b66261d4c2f422025abbc6eecca4ee5b"
+    },
+    {
+      "file": "Settings-content-Dictation-dark-150.png",
+      "width": 990,
+      "height": 1469,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "422578843a563e03c5e3c4eff03bb38a0bf1874c84caaeadcbee48e32e5335f8"
+    },
+    {
+      "file": "Settings-content-Dictation-dark-200.png",
+      "width": 1320,
+      "height": 1959,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "4fbaf575be9f9fe3df7afcb3867752e56cb3320341cda53b32282322ccf1afee"
+    },
+    {
+      "file": "Settings-Permissions-dark-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "bb6dc07c2fe1f2124d1ff8e3ae49f3a199991a229aa6f47bc5ae1e8c4cfc8d79"
+    },
+    {
+      "file": "Settings-Permissions-dark-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "d5b25fc674e4436135e326f5c055e12c60689d9cf7df5d038ffde4a2c67dd165"
+    },
+    {
+      "file": "Settings-Permissions-dark-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "c805d23ba0e29a2a8e1e3e4090ebc059ffc38ebcf867022ddcd770ab9dbbc1c4"
+    },
+    {
+      "file": "Settings-content-Permissions-dark-100.png",
+      "width": 660,
+      "height": 515,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "386f3a753f6a97dfc9507af1eae56f8c4d4de9c07b50935cd703371c37e9cff2"
+    },
+    {
+      "file": "Settings-content-Permissions-dark-150.png",
+      "width": 990,
+      "height": 772,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "759c92fa9e507ef17932b35b9865c2c4e67e511532fdc58bd463f8647e2ab33c"
+    },
+    {
+      "file": "Settings-content-Permissions-dark-200.png",
+      "width": 1320,
+      "height": 1029,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "0b510c24c21ce1b35220fc551a06ce3b75c89bb1e9d4d6a0967d45ee11ef8785"
+    },
+    {
+      "file": "Settings-Privacy-dark-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "0ecca4813980954a45b3fec7c26092c9f1d6c864c560928d9074019fe8e266ba"
+    },
+    {
+      "file": "Settings-Privacy-dark-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "a5962f86b9157d8c56887081a5e842777f01100762f66b9d43797386e377f271"
+    },
+    {
+      "file": "Settings-Privacy-dark-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "59a80cc5cfba60909312dacdb11cc50aba7939305282d969a8c1c623d1ffad6a"
+    },
+    {
+      "file": "Settings-content-Privacy-dark-100.png",
+      "width": 660,
+      "height": 1166,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "7feb22599ae2e3056a24b6c36aafa549bc9e055868fc8805f30af5cd8d6efdaf"
+    },
+    {
+      "file": "Settings-content-Privacy-dark-150.png",
+      "width": 990,
+      "height": 1749,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8fd073934c3834cacd2fd83cf24308e25082bccd7809afefb960ce62e677e236"
+    },
+    {
+      "file": "Settings-content-Privacy-dark-200.png",
+      "width": 1320,
+      "height": 2331,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "3e9caf208a7c47661ce4ecdf68f8c6e4c42b7427262234899310d9d874614549"
+    },
+    {
+      "file": "Settings-About-dark-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "069bdc5385793b309fb7465a46b3423059a4ebca0bfae417e62c38c72b1789e5"
+    },
+    {
+      "file": "Settings-About-dark-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "7487014d0a7e65f9033afa1e9e8f705db580fe09746a258639835b8800cd1e0d"
+    },
+    {
+      "file": "Settings-About-dark-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "de29c27ee3459b2e9aedf154051074e97e9ad1270d7be98a975c40106c469ae3"
+    },
+    {
+      "file": "Settings-content-About-dark-100.png",
+      "width": 660,
+      "height": 539,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "89642d910283d7257ffdcb471ba156f7b2cb5b273d548b165a801ae534cdda12"
+    },
+    {
+      "file": "Settings-content-About-dark-150.png",
+      "width": 990,
+      "height": 809,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "67ed806677a11fc24aa832051ebfa44b6faa6fda42780b865f1404f8c01692c9"
+    },
+    {
+      "file": "Settings-content-About-dark-200.png",
+      "width": 1320,
+      "height": 1078,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "b41bc3758b7e41ccaa1ea4aa42fccb43c8d6c56c180caa8b5834356d32384ff5"
+    },
+    {
+      "file": "Settings-Presets-dark-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8377f9ccecde6db94cf4e07b94feb4b65b991d5553002db2f68662b38b331585"
+    },
+    {
+      "file": "Settings-Presets-dark-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "80329dd45594df06aea55ed330e38fb240adffe2db2b58eaac33ef52a14ee1f4"
+    },
+    {
+      "file": "Settings-Presets-dark-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "3f2283029054b28d86f43d0b431be09b772e285178fe9c9a7f4fd47355c49443"
+    },
+    {
+      "file": "Settings-content-Presets-dark-100.png",
+      "width": 660,
+      "height": 831,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "ce9e578fa8d442188abc3fbf5ed3c5293fefa5d41783848ff5e81e7b00ea5a06"
+    },
+    {
+      "file": "Settings-content-Presets-dark-150.png",
+      "width": 990,
+      "height": 1246,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "25b4c473c4a9d6645d29be12037130c648862b879da84dc64dcd4cf49d509573"
+    },
+    {
+      "file": "Settings-content-Presets-dark-200.png",
+      "width": 1320,
+      "height": 1661,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "ed5912867fa5a27b9d383f0ab5ee9cc797130eb913b614bb69cd1a20b10c0786"
+    },
+    {
+      "file": "Settings-Shortcuts-dark-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "b0e47ebf2c84fa4238af09bad04d8e661b930c88048f9145a171d980792cceae"
+    },
+    {
+      "file": "Settings-Shortcuts-dark-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "a39e7dc35d4e59572a3186454936eb4d76385a7dc4df2660bfb35458f5bb1153"
+    },
+    {
+      "file": "Settings-Shortcuts-dark-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "07e7bd7aba846ccfe175a259085c1f2a55cc1bd09148b0853ce74d35c2b2ef03"
+    },
+    {
+      "file": "Settings-content-Shortcuts-dark-100.png",
+      "width": 660,
+      "height": 691,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "2b9002998a24d1205ca5650e97e498c8f3c49300f286c3fd7aa6beb1d749644e"
+    },
+    {
+      "file": "Settings-content-Shortcuts-dark-150.png",
+      "width": 990,
+      "height": 1036,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "4a8ff5266ac2ec4c7c171d0ea34dd8cdb63c6c4f443bd26f745aa08d95e29310"
+    },
+    {
+      "file": "Settings-content-Shortcuts-dark-200.png",
+      "width": 1320,
+      "height": 1381,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "a007d5de9e8367cbbcd3da38fe6fec08634aab81b72132fe2ce11ef4a21c80d5"
+    },
+    {
+      "file": "Settings-Dictionary-dark-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "05672043264865b7c40c2287d1941c2420b3bafb0b47f9ab39a4898c6da610cf"
+    },
+    {
+      "file": "Settings-Dictionary-dark-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "950fb70e3904e52861a33eb31125c4406e4da51db1df09c2afa4a84be04f5fca"
+    },
+    {
+      "file": "Settings-Dictionary-dark-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "63d4f1bf67e126c3abfdc8ef9af0fc40600865a978005a7f775a25ec41d8d426"
+    },
+    {
+      "file": "Settings-content-Dictionary-dark-100.png",
+      "width": 660,
+      "height": 651,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "60a843fc84fa11399478137705e37549a02ffba3708478b1b3ee37dd94a6e54c"
+    },
+    {
+      "file": "Settings-content-Dictionary-dark-150.png",
+      "width": 990,
+      "height": 976,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "0e7edee43eaa602307983a11cd2d539309186070b3868f5bbac6a6dee642cc84"
+    },
+    {
+      "file": "Settings-content-Dictionary-dark-200.png",
+      "width": 1320,
+      "height": 1301,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "2b0c44a9a486e1bd734bf3f581a37a91a14c9e878ffecf1c9449dc79b8ec08b1"
+    },
+    {
+      "file": "Settings-General-minimum-100.png",
+      "width": 780,
+      "height": 540,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "f7c3002a4eb2b7020f592c6e1bdc6d584c7424d0e368aaf5f8bbe631e49434c8"
+    },
+    {
+      "file": "Settings-General-minimum-150.png",
+      "width": 1170,
+      "height": 810,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "a2ae77f23308d08d4952f17c5604141747ce039b040fba7c7f89aaf15b040d93"
+    },
+    {
+      "file": "Settings-General-minimum-200.png",
+      "width": 1560,
+      "height": 1080,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "40e8cb4ac4fa72e7af5677163f00bb78433efc944517586d1bf75dae85744046"
+    },
+    {
+      "file": "Welcome-1-light-100.png",
+      "width": 620,
+      "height": 560,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "0bc60097dee13bd48cd070180cb41419567d297b186b47ff7d613d24cc5f46ea"
+    },
+    {
+      "file": "Welcome-1-light-150.png",
+      "width": 930,
+      "height": 840,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "df42cadd05b287a5f165e51c2d30f1d86b32d70262cfb7312b836ceaa7286872"
+    },
+    {
+      "file": "Welcome-1-light-200.png",
+      "width": 1240,
+      "height": 1120,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "4b70d0713387553de99603d8aec98eb6b4ab8161b23a07bdcb3d226d5d228359"
+    },
+    {
+      "file": "Welcome-2-light-100.png",
+      "width": 620,
+      "height": 560,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "4a4abb5a98e48226185e0c6b5ed3d72c33f8e018a49d0d02ac5d43754ab34b92"
+    },
+    {
+      "file": "Welcome-2-light-150.png",
+      "width": 930,
+      "height": 840,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "4f7dba494df3759b3d5fb1e6b718e89b66e609f10d5b453d430eb3da38c7f7bf"
+    },
+    {
+      "file": "Welcome-2-light-200.png",
+      "width": 1240,
+      "height": 1120,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "268e2aad9f7b6a27bb260fd2fcc0aa400d79b69803b8280e49641f399f4c4435"
+    },
+    {
+      "file": "Welcome-3-light-100.png",
+      "width": 620,
+      "height": 560,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "66d726f56879a00a12e42cad4408e4fb22248eb406cb76926418e4d80bf75e11"
+    },
+    {
+      "file": "Welcome-3-light-150.png",
+      "width": 930,
+      "height": 840,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "ba96e994b012df73f1cea5ef8a309df284b884c7ad7f8481246756afe1797ce3"
+    },
+    {
+      "file": "Welcome-3-light-200.png",
+      "width": 1240,
+      "height": 1120,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "b126e14f06f19a6edb22d20d4c08745b4abdf4e4671fbdbeeb7d07f4dccec6ed"
+    },
+    {
+      "file": "Welcome-4-light-100.png",
+      "width": 620,
+      "height": 560,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "803115a0898bfe7ef7358df26b2a4628a79384e4ff261b368e802b9920b92814"
+    },
+    {
+      "file": "Welcome-4-light-150.png",
+      "width": 930,
+      "height": 840,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "e766b0a98ec7de88ae7ec9ea930a85d09d412d79f860fde335c575998bcb85a2"
+    },
+    {
+      "file": "Welcome-4-light-200.png",
+      "width": 1240,
+      "height": 1120,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "ced754b494ff4df6d9a582b95907deee553b1914af5feb8329ff33c9d01757e4"
+    },
+    {
+      "file": "Welcome-5-light-100.png",
+      "width": 620,
+      "height": 560,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8a17afa0d72303e49d34a5181657469a18799ad3b7fb40d73807ed139c519891"
+    },
+    {
+      "file": "Welcome-5-light-150.png",
+      "width": 930,
+      "height": 840,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "3d2b3160a62c7136c9829cb5c29823f5b40ebc8ac58eb852dca6c0d49299c084"
+    },
+    {
+      "file": "Welcome-5-light-200.png",
+      "width": 1240,
+      "height": 1120,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "4bc8bebc5e0e14380a253bff162cf510a2d767476df614a3d91f3410d27a2bf1"
+    },
+    {
+      "file": "Welcome-6-light-100.png",
+      "width": 620,
+      "height": 560,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "c13d486eea7af080d96a965c4c8f689430b3299b2c9c0526872b89a2d5af200a"
+    },
+    {
+      "file": "Welcome-6-light-150.png",
+      "width": 930,
+      "height": 840,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "fb52c879271fcf9385bf586f64eb273cf3f909978fb4daf33d0c47e2c2e49ad0"
+    },
+    {
+      "file": "Welcome-6-light-200.png",
+      "width": 1240,
+      "height": 1120,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "6087db2afa1cfe04cd27f3960a377f5976d9642662ee744f411567854a9585a7"
+    },
+    {
+      "file": "Welcome-return-to-sample-light-100.png",
+      "width": 620,
+      "height": 560,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "c13d486eea7af080d96a965c4c8f689430b3299b2c9c0526872b89a2d5af200a"
+    },
+    {
+      "file": "Welcome-return-to-sample-light-150.png",
+      "width": 930,
+      "height": 840,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "fb52c879271fcf9385bf586f64eb273cf3f909978fb4daf33d0c47e2c2e49ad0"
+    },
+    {
+      "file": "Welcome-return-to-sample-light-200.png",
+      "width": 1240,
+      "height": 1120,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "6087db2afa1cfe04cd27f3960a377f5976d9642662ee744f411567854a9585a7"
+    },
+    {
+      "file": "Welcome-1-dark-100.png",
+      "width": 620,
+      "height": 560,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "cfaa3ff8dc7f1179f4d6d18c8bfb5a64e9b5057e9da267ffd878e77845b7f4d0"
+    },
+    {
+      "file": "Welcome-1-dark-150.png",
+      "width": 930,
+      "height": 840,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "dd8647855dc849f4298bb2a264d888f86b0de29ea2fa693989db25a790356bf6"
+    },
+    {
+      "file": "Welcome-1-dark-200.png",
+      "width": 1240,
+      "height": 1120,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "23c6cc7debb1199721919814689bc65f295c1e4d1d66d64be067d9c82de937eb"
+    },
+    {
+      "file": "Welcome-2-dark-100.png",
+      "width": 620,
+      "height": 560,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8085311d606de596e12a508843e64b4df0eae41ca724113fd2399645b4f911b1"
+    },
+    {
+      "file": "Welcome-2-dark-150.png",
+      "width": 930,
+      "height": 840,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "54d519ad9cb4a9e4d225339e065d923ad7dcbb721b1272224f34740f2b2f6382"
+    },
+    {
+      "file": "Welcome-2-dark-200.png",
+      "width": 1240,
+      "height": 1120,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "6c04da2d58fe2d8bf4a0ddb82cff502f6ee3704fcb0123af8c037606de5fd5e6"
+    },
+    {
+      "file": "Welcome-3-dark-100.png",
+      "width": 620,
+      "height": 560,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "37a7cbfa33f302171b52581519fa81f246a966fbf371293a0d2367b6e0397087"
+    },
+    {
+      "file": "Welcome-3-dark-150.png",
+      "width": 930,
+      "height": 840,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "d69d1bd743ee7f967e79afef095180ae0c990c407de567582081a6dd0cc0df0f"
+    },
+    {
+      "file": "Welcome-3-dark-200.png",
+      "width": 1240,
+      "height": 1120,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "5a373414f7fca49507f822d126ff923faa21c9aa8f276822d5f1ffe1d41b5163"
+    },
+    {
+      "file": "Welcome-4-dark-100.png",
+      "width": 620,
+      "height": 560,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "35ad3f9f4427a9fb82083d8f59d90fc8e4ebf9c0950dd3d0272a7e150eeac57d"
+    },
+    {
+      "file": "Welcome-4-dark-150.png",
+      "width": 930,
+      "height": 840,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "500ddcd5aa721effd7266f11d7f5f7b3cfaedbb570fe58d6e125bfcecb8be6a9"
+    },
+    {
+      "file": "Welcome-4-dark-200.png",
+      "width": 1240,
+      "height": 1120,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "cc58cf74f8ed2fa7e3130b1c2f0f7c2feb7a804c43f9a6189d279a924e1e06a9"
+    },
+    {
+      "file": "Welcome-5-dark-100.png",
+      "width": 620,
+      "height": 560,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "a95d49ad315ff99f0934977297f9c8c7cce134566d9ea7ab584ec1b7666e9ddd"
+    },
+    {
+      "file": "Welcome-5-dark-150.png",
+      "width": 930,
+      "height": 840,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "9d1a9f48f4ee423043e59619da415b5a59456a1f11484b04618f6665ea378f60"
+    },
+    {
+      "file": "Welcome-5-dark-200.png",
+      "width": 1240,
+      "height": 1120,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "64cc435fd2066ff9a7aff0745968a3821245a942fb71670367eaea0feb9bf282"
+    },
+    {
+      "file": "Welcome-6-dark-100.png",
+      "width": 620,
+      "height": 560,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "21dbdb0e631f9dfdd1692e6799e812f8c606d8c5c34b5d36df2aff99898ab730"
+    },
+    {
+      "file": "Welcome-6-dark-150.png",
+      "width": 930,
+      "height": 840,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "fd8d7fb5c1902be87122e13cbb4f6f335b95e42e8194deffd29020f80e127f2a"
+    },
+    {
+      "file": "Welcome-6-dark-200.png",
+      "width": 1240,
+      "height": 1120,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "4cda7feedf23168d85e085aeadb69d992ec22a057d0e3fc97b9dd7df8e1dd940"
+    },
+    {
+      "file": "Welcome-return-to-sample-dark-100.png",
+      "width": 620,
+      "height": 560,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "21dbdb0e631f9dfdd1692e6799e812f8c606d8c5c34b5d36df2aff99898ab730"
+    },
+    {
+      "file": "Welcome-return-to-sample-dark-150.png",
+      "width": 930,
+      "height": 840,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "fd8d7fb5c1902be87122e13cbb4f6f335b95e42e8194deffd29020f80e127f2a"
+    },
+    {
+      "file": "Welcome-return-to-sample-dark-200.png",
+      "width": 1240,
+      "height": 1120,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "4cda7feedf23168d85e085aeadb69d992ec22a057d0e3fc97b9dd7df8e1dd940"
+    },
+    {
+      "file": "Settings-Dictation-minimum-100.png",
+      "width": 780,
+      "height": 540,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "728e4a83941c64d48d60e5004d1c9da8dc334c43378279e0a85239ec94e5e404"
+    },
+    {
+      "file": "Settings-Dictation-minimum-150.png",
+      "width": 1170,
+      "height": 810,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "2f39ba083700390327c22adf53dd904b2fb0091b5a7966545334c21b720e7305"
+    },
+    {
+      "file": "Settings-Dictation-minimum-200.png",
+      "width": 1560,
+      "height": 1080,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8523d756a3e8e2b21efc22074cd6355f209ce8abedc2fe3ed6166569e56b0631"
+    },
+    {
+      "file": "Settings-General-automatic-save-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "119f57d6ea937fe50b76ba349f21a2498734167a28d36c69fb8830466f4c91ea"
+    },
+    {
+      "file": "Settings-General-automatic-save-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "22d7995582ca13b80a173fce1a551740726ae966c16d3d22388b724b1cd11572"
+    },
+    {
+      "file": "Settings-General-automatic-save-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "d39c321fef68e02e17eb573ea460e6ab3a5fe468bc9bc6bda4dc19bdbbf9e542"
+    },
+    {
+      "file": "Settings-Dictation-automatic-save-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "5901cd30646b360cb1c1229816cd1e4738042082ed689c62ea926c725acbe63d"
+    },
+    {
+      "file": "Settings-Dictation-automatic-save-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "2f7e215576608c6dd8d80da9d0d1c50c80702b43840c1540fb7e07be01ae3b4b"
+    },
+    {
+      "file": "Settings-Dictation-automatic-save-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "9294b4bf38eb010e9a81fa0b3e709d8a02540993cbe92d9a2aa4d585f5945eb6"
+    },
+    {
+      "file": "Settings-Shortcuts-automatic-save-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "b0e47ebf2c84fa4238af09bad04d8e661b930c88048f9145a171d980792cceae"
+    },
+    {
+      "file": "Settings-Shortcuts-automatic-save-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "a39e7dc35d4e59572a3186454936eb4d76385a7dc4df2660bfb35458f5bb1153"
+    },
+    {
+      "file": "Settings-Shortcuts-automatic-save-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "07e7bd7aba846ccfe175a259085c1f2a55cc1bd09148b0853ce74d35c2b2ef03"
+    },
+    {
+      "file": "Settings-Presets-automatic-save-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8377f9ccecde6db94cf4e07b94feb4b65b991d5553002db2f68662b38b331585"
+    },
+    {
+      "file": "Settings-Presets-automatic-save-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "80329dd45594df06aea55ed330e38fb240adffe2db2b58eaac33ef52a14ee1f4"
+    },
+    {
+      "file": "Settings-Presets-automatic-save-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "3f2283029054b28d86f43d0b431be09b772e285178fe9c9a7f4fd47355c49443"
+    },
+    {
+      "file": "Settings-Dictionary-automatic-save-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "05672043264865b7c40c2287d1941c2420b3bafb0b47f9ab39a4898c6da610cf"
+    },
+    {
+      "file": "Settings-Dictionary-automatic-save-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "950fb70e3904e52861a33eb31125c4406e4da51db1df09c2afa4a84be04f5fca"
+    },
+    {
+      "file": "Settings-Dictionary-automatic-save-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "63d4f1bf67e126c3abfdc8ef9af0fc40600865a978005a7f775a25ec41d8d426"
+    },
+    {
+      "file": "Settings-Privacy-automatic-save-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "0ecca4813980954a45b3fec7c26092c9f1d6c864c560928d9074019fe8e266ba"
+    },
+    {
+      "file": "Settings-Privacy-automatic-save-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "a5962f86b9157d8c56887081a5e842777f01100762f66b9d43797386e377f271"
+    },
+    {
+      "file": "Settings-Privacy-automatic-save-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "59a80cc5cfba60909312dacdb11cc50aba7939305282d969a8c1c623d1ffad6a"
+    },
+    {
+      "file": "Settings-Permissions-automatic-save-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "bb6dc07c2fe1f2124d1ff8e3ae49f3a199991a229aa6f47bc5ae1e8c4cfc8d79"
+    },
+    {
+      "file": "Settings-Permissions-automatic-save-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "d5b25fc674e4436135e326f5c055e12c60689d9cf7df5d038ffde4a2c67dd165"
+    },
+    {
+      "file": "Settings-Permissions-automatic-save-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "c805d23ba0e29a2a8e1e3e4090ebc059ffc38ebcf867022ddcd770ab9dbbc1c4"
+    },
+    {
+      "file": "Settings-About-automatic-save-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "069bdc5385793b309fb7465a46b3423059a4ebca0bfae417e62c38c72b1789e5"
+    },
+    {
+      "file": "Settings-About-automatic-save-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "7487014d0a7e65f9033afa1e9e8f705db580fe09746a258639835b8800cd1e0d"
+    },
+    {
+      "file": "Settings-About-automatic-save-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "de29c27ee3459b2e9aedf154051074e97e9ad1270d7be98a975c40106c469ae3"
+    },
+    {
+      "file": "Presets-list-and-editor-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8377f9ccecde6db94cf4e07b94feb4b65b991d5553002db2f68662b38b331585"
+    },
+    {
+      "file": "Presets-list-and-editor-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "80329dd45594df06aea55ed330e38fb240adffe2db2b58eaac33ef52a14ee1f4"
+    },
+    {
+      "file": "Presets-list-and-editor-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "3f2283029054b28d86f43d0b431be09b772e285178fe9c9a7f4fd47355c49443"
+    },
+    {
+      "file": "Presets-translation-editor-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "7762e9f51fd4414c77a72a523f215ec8b45ad8272913e4f7299160c9d8e13123"
+    },
+    {
+      "file": "Presets-translation-editor-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "3af223454be9195816aa5c1b7437232de734dcf7328ee515d669c26b7218018a"
+    },
+    {
+      "file": "Presets-translation-editor-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "b574d35903601a754bb77d45655481b912bd0f0171edeb531ff506e409a351d1"
+    },
+    {
+      "file": "Privacy-insertion-policies-100.png",
+      "width": 900,
+      "height": 760,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "0ecca4813980954a45b3fec7c26092c9f1d6c864c560928d9074019fe8e266ba"
+    },
+    {
+      "file": "Privacy-insertion-policies-150.png",
+      "width": 1350,
+      "height": 1140,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "a5962f86b9157d8c56887081a5e842777f01100762f66b9d43797386e377f271"
+    },
+    {
+      "file": "Privacy-insertion-policies-200.png",
+      "width": 1800,
+      "height": 1520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "59a80cc5cfba60909312dacdb11cc50aba7939305282d969a8c1c623d1ffad6a"
+    },
+    {
+      "file": "Refine-long-recovery-selection-100.png",
+      "width": 380,
+      "height": 368,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "b1e68872f50b9adf7867b41a867bee7c3fe97d1d53b58dbcf5894566dea89c52"
+    },
+    {
+      "file": "Refine-long-recovery-selection-150.png",
+      "width": 570,
+      "height": 552,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "94088b4f86b4d3bc730edbf4e01ad82657fa089171cc082306ab767311fad951"
+    },
+    {
+      "file": "Refine-long-recovery-selection-200.png",
+      "width": 760,
+      "height": 736,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "2fe39978c956f892647a834f0ea952e2d9ad7c54060977ac1d48369455b0a7de"
+    },
+    {
+      "file": "Refine-long-recovery-compose-100.png",
+      "width": 380,
+      "height": 260,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "1a0f27dccb8f6ac22c09c8f1366179612e324f4ea827ea99dea6cadfa7e45ce9"
+    },
+    {
+      "file": "Refine-long-recovery-compose-150.png",
+      "width": 570,
+      "height": 390,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "8ce7016f58eacf09087a52f3c764f9b671c8d29e65067a008a2b4f7d279b1e72"
+    },
+    {
+      "file": "Refine-long-recovery-compose-200.png",
+      "width": 760,
+      "height": 520,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "660cef849171792718e6ad191cf43eb50c9177f0a8892b6f72f15eaa73a1a56e"
+    },
+    {
+      "file": "Tray-ready-light-100.png",
+      "width": 320,
+      "height": 349,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "45955ab4f2d9bd4b9679c8f0268e736b1b08c988766570787825d0b8231b2ebc"
+    },
+    {
+      "file": "Tray-ready-light-150.png",
+      "width": 480,
+      "height": 524,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "5e09ba3d2c529c7d6654ab78e9b4e8e76861f6db456dcaf716af392462f7657a"
+    },
+    {
+      "file": "Tray-ready-light-200.png",
+      "width": 640,
+      "height": 698,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "85778beeda244ca3e0af88d51eaea69c47c65068e56d707479b93bfc74151782"
+    },
+    {
+      "file": "Tray-no-target-light-100.png",
+      "width": 320,
+      "height": 371,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "255b755d89093b1c220eba2597a8d774e8b17285af9c6114e87cff21fe9dad09"
+    },
+    {
+      "file": "Tray-no-target-light-150.png",
+      "width": 480,
+      "height": 556,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "1604a00c75d926d9f5004ddb823c876fa24df562aa1dc8561a22c9288fb2ab33"
+    },
+    {
+      "file": "Tray-no-target-light-200.png",
+      "width": 640,
+      "height": 741,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "86fca4b2c09c85267b2621a8b436b8edcc5810ac98748e9c012d0954cf35513a"
+    },
+    {
+      "file": "Tray-recording-light-100.png",
+      "width": 320,
+      "height": 384,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "196a2bd0877b5e1bc862a5009e0446a5ab64ec472a46434abb2d7f5db07faf6b"
+    },
+    {
+      "file": "Tray-recording-light-150.png",
+      "width": 480,
+      "height": 576,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "39a0118cc42b31fa7e4598b8024e2c6c9eab367332c40d64e460fc59761dbb16"
+    },
+    {
+      "file": "Tray-recording-light-200.png",
+      "width": 640,
+      "height": 768,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "68dae4428bac44e21ce398e491301179160ce111e67dcdb439bbd18d85f42223"
+    },
+    {
+      "file": "Tray-setup-light-100.png",
+      "width": 320,
+      "height": 442,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "a0096b522f9aaed1b5d7cd45543facd87d08720a7bb5d665652b9a516e1191cf"
+    },
+    {
+      "file": "Tray-setup-light-150.png",
+      "width": 480,
+      "height": 662,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "35628712f4ea87923b903fe3660fdec080fb81e34aac2333cd0f0ff748425d04"
+    },
+    {
+      "file": "Tray-setup-light-200.png",
+      "width": 640,
+      "height": 883,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "0f49e18f80585a7745c2dbbb1dd7cd396ac54495619b9e7ac45ef2c0867d677b"
+    },
+    {
+      "file": "Tray-short-work-area-light-100.png",
+      "width": 320,
+      "height": 240,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "29c1c9fe7d0d8e20b5eae40ea243f66bed4bacaaf2d97c78277305b6e04c2337"
+    },
+    {
+      "file": "Tray-short-work-area-light-150.png",
+      "width": 480,
+      "height": 360,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "75f4f376ce4b2b2c4a65c61373e34de1cb80d1ed30ed20aa8abe820c4b1776a0"
+    },
+    {
+      "file": "Tray-short-work-area-light-200.png",
+      "width": 640,
+      "height": 480,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "e4f8e189f0869fca33b07efb2c03aefd5fe2603c43a20b152320df09af454a32"
+    },
+    {
+      "file": "Tray-short-work-area-footer-light-100.png",
+      "width": 320,
+      "height": 240,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "012dbdde321cc4805a344c3f8d794439ed847c41e1f73e23ef346f412d247f36"
+    },
+    {
+      "file": "Tray-short-work-area-footer-light-150.png",
+      "width": 480,
+      "height": 360,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "d4063a51535a377a6b373087a95c5b37367dab82dc865e9ee26ce3e8ba0f00c2"
+    },
+    {
+      "file": "Tray-short-work-area-footer-light-200.png",
+      "width": 640,
+      "height": 480,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "821ae6d0c1d3ca1baa03dad6f9e4fd5376a8e4330a560787a27b240e46b1c589"
+    },
+    {
+      "file": "Tray-ready-dark-100.png",
+      "width": 320,
+      "height": 349,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "741ee0a026025391ab41c6826af743ff6811afe3c870c1822323ffb753974c18"
+    },
+    {
+      "file": "Tray-ready-dark-150.png",
+      "width": 480,
+      "height": 524,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "c446bcac609e396ca7e752af60900a0263c237c1684689227e14388588607dbc"
+    },
+    {
+      "file": "Tray-ready-dark-200.png",
+      "width": 640,
+      "height": 698,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "27f798a3a6dc7900e1029c4a037cfadab5d93c70e7056a4c0cdbf728ea1ddb6a"
+    },
+    {
+      "file": "Tray-no-target-dark-100.png",
+      "width": 320,
+      "height": 371,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "1e7808b00c8a8af0984766c8df735e40b7ee56680b60c34172b68d389393291f"
+    },
+    {
+      "file": "Tray-no-target-dark-150.png",
+      "width": 480,
+      "height": 556,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "0b4da71f0c99dd02db7d108b7e72e6eba9c5e4bd2d755a40433ca1c692d7f615"
+    },
+    {
+      "file": "Tray-no-target-dark-200.png",
+      "width": 640,
+      "height": 741,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "831463046de0b1e10c572a97fc4066f58801ec5274718ee6471fe039500e2eae"
+    },
+    {
+      "file": "Tray-recording-dark-100.png",
+      "width": 320,
+      "height": 384,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "ecc612251dbbb9e195d8000778f6c68492df72c1c8b27b0c942b774e12b8db56"
+    },
+    {
+      "file": "Tray-recording-dark-150.png",
+      "width": 480,
+      "height": 576,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "370d1ef486525284ddac0f31c974e4626c4d9f90f6df7edcc18b49d7452a7f34"
+    },
+    {
+      "file": "Tray-recording-dark-200.png",
+      "width": 640,
+      "height": 768,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "d8a9cb6ae1d246df9711f10eda6bb39c498681ae19bb58115b60605fbf6165ba"
+    },
+    {
+      "file": "Tray-setup-dark-100.png",
+      "width": 320,
+      "height": 442,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "96d341530bcefa9cbaf1e284d1dad0eec77a64005a6042cda3c007a03d816ed8"
+    },
+    {
+      "file": "Tray-setup-dark-150.png",
+      "width": 480,
+      "height": 662,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "388cb05da728b1714c752061b3636e8023457e7afa8af2cc7e995973afb9a4b9"
+    },
+    {
+      "file": "Tray-setup-dark-200.png",
+      "width": 640,
+      "height": 883,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "0056cf69ab8981e796c50985ec1685607517cb6e7fa48480733028e88828340e"
+    },
+    {
+      "file": "Tray-short-work-area-dark-100.png",
+      "width": 320,
+      "height": 240,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "85b2731a205ccd6f02ccaa9205eba51ea8fc77f11750a71a839246aeb4608509"
+    },
+    {
+      "file": "Tray-short-work-area-dark-150.png",
+      "width": 480,
+      "height": 360,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "45fff1856d38299d2c9248478bedc1f231e7ff1dd6e98084e9c826ce4f271b8e"
+    },
+    {
+      "file": "Tray-short-work-area-dark-200.png",
+      "width": 640,
+      "height": 480,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "bedcbdf69b0ab2fb5d9c61b29fac9e6cb20d8e7207ea2ee10737c06172bf5f15"
+    },
+    {
+      "file": "Tray-short-work-area-footer-dark-100.png",
+      "width": 320,
+      "height": 240,
+      "scale": 1,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "5ff98452369ecf824b48a2f145e66efaf8ba83368f73646de51e2b8329cdf26b"
+    },
+    {
+      "file": "Tray-short-work-area-footer-dark-150.png",
+      "width": 480,
+      "height": 360,
+      "scale": 1.5,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "fa475bb7a9611d740a2d584c041645806faa486ba144928c4a484ce28d51a538"
+    },
+    {
+      "file": "Tray-short-work-area-footer-dark-200.png",
+      "width": 640,
+      "height": 480,
+      "scale": 2,
+      "provenance": "Offscreen WPF control render; no native window or native DPI test",
+      "sha256": "bd4a9003d21c3e9dee3603704397ee50863f5f2e0e009ba4c5c5f587a2beffca"
+    }
+  ]
+}

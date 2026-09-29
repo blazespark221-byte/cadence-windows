@@ -1,0 +1,454 @@
+{
+  "runUTC": "2026-09-29T06:32:18.567369Z",
+  "os": "Microsoft Windows NT 10.0.26100.0",
+  "passed": 110,
+  "failed": 0,
+  "skipped": 1,
+  "results": [
+    {
+      "name": "First-run settings defaults",
+      "passed": true
+    },
+    {
+      "name": "Atomic settings Unicode roundtrip",
+      "passed": true
+    },
+    {
+      "name": "Concurrent saves remain complete JSON",
+      "passed": true
+    },
+    {
+      "name": "Cancelled save preserves previous settings",
+      "passed": true
+    },
+    {
+      "name": "Corrupt settings produce a recoverable error",
+      "passed": true
+    },
+    {
+      "name": "Oversized settings are bounded",
+      "passed": true
+    },
+    {
+      "name": "Missing credential returns null",
+      "passed": true
+    },
+    {
+      "name": "DPAPI encrypts and decrypts Unicode credentials",
+      "passed": true
+    },
+    {
+      "name": "Credential identifiers cannot traverse paths",
+      "passed": true
+    },
+    {
+      "name": "Removing a credential removes encrypted file",
+      "passed": true
+    },
+    {
+      "name": "Corrupt encrypted data fails without disclosing contents",
+      "passed": true
+    },
+    {
+      "name": "Corrupt credentials can be replaced without decrypting",
+      "passed": true
+    },
+    {
+      "name": "Credential rollback cancellation preserves saved value",
+      "passed": true
+    },
+    {
+      "name": "Settings normalize malformed optional values",
+      "passed": true
+    },
+    {
+      "name": "Vocabulary and shortcut display",
+      "passed": true
+    },
+    {
+      "name": "WAV PCM16 header and samples",
+      "passed": true
+    },
+    {
+      "name": "WAV rejects partial samples",
+      "passed": true
+    },
+    {
+      "name": "Unsafe shortcut validation",
+      "passed": true
+    },
+    {
+      "name": "Missing engine has recovery guidance",
+      "passed": true
+    },
+    {
+      "name": "Usage matches native Mac Unicode golden samples and weighted totals",
+      "passed": true
+    },
+    {
+      "name": "Usage defaults, bounds, pause, operation deduplication and reset",
+      "passed": true
+    },
+    {
+      "name": "Usage rejects invalid timing without changing totals",
+      "passed": true
+    },
+    {
+      "name": "Usage persists only aggregates and retains local calendar buckets",
+      "passed": true
+    },
+    {
+      "name": "Corrupt statistics remain untouched until explicit reset",
+      "passed": true
+    },
+    {
+      "name": "Statistics save failure retains session progress and supports retry",
+      "passed": true
+    },
+    {
+      "name": "Dictionary migration normalizes, deduplicates and survives restart",
+      "passed": true
+    },
+    {
+      "name": "Dictionary validates graphemes, duplicates and edit identity",
+      "passed": true
+    },
+    {
+      "name": "Legacy provider migration retains IDs, endpoint, model and encrypted key slots",
+      "passed": true
+    },
+    {
+      "name": "Four independent provider roles and optional fallback survive JSON reload",
+      "passed": true
+    },
+    {
+      "name": "Removed and invalid role assignments never silently choose another connection",
+      "passed": true
+    },
+    {
+      "name": "Provider credential scopes ignore paths and reject origin or protocol changes",
+      "passed": true
+    },
+    {
+      "name": "Multiple encrypted profile keys persist independently without entering settings JSON",
+      "passed": true
+    },
+    {
+      "name": "Legacy credentials remain byte-identical through migration and profile addition",
+      "passed": true
+    },
+    {
+      "name": "Endpoint changes clear only the affected saved key unless explicitly replaced",
+      "passed": true
+    },
+    {
+      "name": "Failed profile commit rolls back all encrypted keys and role assignments",
+      "passed": true
+    },
+    {
+      "name": "Deleting a profile clears its roles and only its encrypted credential",
+      "passed": true
+    },
+    {
+      "name": "Failed profile deletion restores its encrypted credential and selection",
+      "passed": true
+    },
+    {
+      "name": "Stale settings save preserves a preset added from Refine and unrelated newer preferences",
+      "passed": true
+    },
+    {
+      "name": "Profile duplication rejects endpoint or credential changes during delayed key loading",
+      "passed": true
+    },
+    {
+      "name": "Three-way settings merge never moves an edited key to an externally changed origin",
+      "passed": true
+    },
+    {
+      "name": "Compact connection key saves preserve other profiles and reject a stale origin",
+      "passed": true
+    },
+    {
+      "name": "Failed compact key save restores exact encrypted bytes and can retry",
+      "passed": true
+    },
+    {
+      "name": "Saved credentials cannot be read for a stale endpoint or protocol",
+      "passed": true
+    },
+    {
+      "name": "Codex login resolves official executable paths without invoking a shell",
+      "passed": true
+    },
+    {
+      "name": "Provider options persist and serialize to their supported bridge fields",
+      "passed": true
+    },
+    {
+      "name": "Codex and Haiku do not expose or send unsupported API options",
+      "passed": true
+    },
+    {
+      "name": "Speech response formats follow model and exact OpenRouter host capabilities",
+      "passed": true
+    },
+    {
+      "name": "Invalid provider options fail with actionable setup errors",
+      "passed": true
+    },
+    {
+      "name": "Recording limits clamp duration and disable invalid silence values",
+      "passed": true
+    },
+    {
+      "name": "Dictation never auto-stops from silence; instruction silence follows RMS activity",
+      "passed": true
+    },
+    {
+      "name": "Explicit microphone identity survives enumeration changes and never silently falls back",
+      "passed": true
+    },
+    {
+      "name": "All five unchanged bundled Mac cues have the expected WAV durations",
+      "passed": true
+    },
+    {
+      "name": "Opening cue plus forty-millisecond tail completes before capture is allowed",
+      "passed": true
+    },
+    {
+      "name": "Old capture teardown delays the next opening cue, and all cues are suppressed during capture",
+      "passed": true
+    },
+    {
+      "name": "Cancellation stops its opening cue without interrupting a newer result cue",
+      "passed": true
+    },
+    {
+      "name": "Muted feedback stops previous playback and skips loading or playing cues",
+      "passed": true
+    },
+    {
+      "name": "Unrelated preference save never reconciles or overwrites startup registration",
+      "passed": true
+    },
+    {
+      "name": "Failed startup preference restores the exact earlier command and registry type",
+      "passed": true
+    },
+    {
+      "name": "Failed startup preference restores an absent entry; successful retry commits",
+      "passed": true
+    },
+    {
+      "name": "Immediate preferences serialize independent edits and survive restart",
+      "passed": true
+    },
+    {
+      "name": "Failed immediate preference remains retryable without applying uncommitted state",
+      "passed": true
+    },
+    {
+      "name": "A newer successful preference supersedes its failed pending retry",
+      "passed": true
+    },
+    {
+      "name": "Spoken instruction auto-submit defaults off and preserves explicit legacy choices",
+      "passed": true
+    },
+    {
+      "name": "Redacted diagnostics reject content and raw errors in memory and on disk",
+      "passed": true
+    },
+    {
+      "name": "Diagnostics burst writes are bounded, atomic and clearable",
+      "passed": true
+    },
+    {
+      "name": "Diagnostics write failure retains redacted session events without raw filesystem errors",
+      "passed": true
+    },
+    {
+      "name": "Customer setup requires one Cadence account and platform prerequisites",
+      "passed": true
+    },
+    {
+      "name": "Dormant legacy profile defaults and existing preferences survive customer migration",
+      "passed": true
+    },
+    {
+      "name": "Setup readiness requires microphone shortcuts engine and speech configuration",
+      "passed": true
+    },
+    {
+      "name": "Dictation-only setup permits no writing connection but cleanup must be configured",
+      "passed": true
+    },
+    {
+      "name": "Optional API keys apply only to official Codex or compatible loopback providers",
+      "passed": true
+    },
+    {
+      "name": "Controller and guide cannot mark incomplete setup finished",
+      "passed": true
+    },
+    {
+      "name": "Managed browser callback crosses a Windows current-user pipe",
+      "passed": true
+    },
+    {
+      "name": "Cancelled browser sign-in releases the pending Windows callback",
+      "passed": true
+    },
+    {
+      "name": "Eight Mac built-ins keep stable identities translation targets and local edits",
+      "passed": true
+    },
+    {
+      "name": "Legacy custom preset arrays are preserved instead of replaced with fresh defaults",
+      "passed": true
+    },
+    {
+      "name": "Preset instruction size uses the bridge UTF-8 limit",
+      "passed": true
+    },
+    {
+      "name": "Direct apply requires explicit current trust a preset-only instruction and an original selection",
+      "passed": true
+    },
+    {
+      "name": "Held shortcut early release blocks delayed capture start while toggle release does not",
+      "passed": true
+    },
+    {
+      "name": "Shortcut mode is fixed at press even when preferences change",
+      "passed": true
+    },
+    {
+      "name": "Native release policy observes main key and every captured modifier including either Win key",
+      "passed": true
+    },
+    {
+      "name": "Windows single left/right modifiers validate and survive settings reload",
+      "passed": true
+    },
+    {
+      "name": "Modifier hold has 120ms grace and an early release cannot start capture",
+      "passed": true
+    },
+    {
+      "name": "Modifier toggle fires only after lone release with its original mode",
+      "passed": true
+    },
+    {
+      "name": "Any additional modifier or ordinary key invalidates a pending lone press",
+      "passed": true
+    },
+    {
+      "name": "Activated modifier hold cancels before balancing release when it becomes a chord",
+      "passed": true
+    },
+    {
+      "name": "Timer identity cannot activate a later modifier press and reset invalidates timers",
+      "passed": true
+    },
+    {
+      "name": "A pre-held key prevents a modifier candidate and Windows sided key codes normalize correctly",
+      "passed": true
+    },
+    {
+      "name": "Smart spacing handles punctuation existing whitespace CJK and grapheme boundaries",
+      "passed": true
+    },
+    {
+      "name": "Blocked app names match exactly across casing and optional exe suffix",
+      "passed": true
+    },
+    {
+      "name": "Insertion choice distinguishes automatic dictation paste from direct-only rewrite",
+      "passed": true
+    },
+    {
+      "name": "Feedback uses Mac 0.7 volume without changing original WAV bytes or timing",
+      "passed": true
+    },
+    {
+      "name": "Controller sample rewrite completes and accepts",
+      "passed": true
+    },
+    {
+      "name": "Selected advanced provider options survive controller and bridge into HTTP",
+      "passed": true
+    },
+    {
+      "name": "Trusted preset applies the sample only after a real bridge result and current trust check",
+      "passed": true
+    },
+    {
+      "name": "Translation preset reaches the provider and editing its instruction clears preset-only metadata",
+      "passed": true
+    },
+    {
+      "name": "Controller cancellation prevents a late result from being accepted",
+      "passed": true
+    },
+    {
+      "name": "Controller superseding rewrite keeps only the current revision",
+      "passed": true
+    },
+    {
+      "name": "Controller changed instruction requires regeneration before accept",
+      "passed": true
+    },
+    {
+      "name": "Controller provider failure leaves review usable for retry",
+      "passed": true
+    },
+    {
+      "name": "Settings commit blocks mismatched endpoint and credential requests until success",
+      "passed": true
+    },
+    {
+      "name": "Failed settings commit restores endpoint credential pair and releases gate",
+      "passed": true
+    },
+    {
+      "name": "Concurrent dictionary toggles preserve both pending edits",
+      "passed": true
+    },
+    {
+      "name": "Concurrent dictionary deletes and full-settings save preserve latest dictionary",
+      "passed": true
+    },
+    {
+      "name": "Composition preview and followup preserve the correct generation base",
+      "passed": true
+    },
+    {
+      "name": "Uncertain rewrite insertion remains blocked after regeneration",
+      "passed": true
+    },
+    {
+      "name": "Regenerate uses the stored instruction after the visible field is cleared",
+      "passed": true
+    },
+    {
+      "name": "Actual insertion-recovery and copy notices expose an accessible status row",
+      "passed": true
+    },
+    {
+      "name": "Named rewrite profile sends only its selected endpoint and encrypted credential",
+      "passed": true
+    },
+    {
+      "name": "Revise latest preserves stored instruction after clearing the visible input",
+      "passed": true
+    },
+    {
+      "name": "Desktop and window suites",
+      "skipped": true,
+      "reason": "Logic-only mode does not show native windows, access the clipboard, register hotkeys, capture audio, or send input."
+    }
+  ]
+}

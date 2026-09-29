@@ -1,0 +1,47 @@
+{
+  "finished": "2026-09-29T06:36:28.7631426Z",
+  "checks": [
+    {
+      "signature": "1.459.455.0",
+      "passed": true,
+      "name": "Defender signature version"
+    },
+    {
+      "name": "Defender scans installer and expanded payload with no detected threats",
+      "passed": true
+    },
+    {
+      "name": "Install production installer without elevation",
+      "passed": true
+    },
+    {
+      "name": "Install registers browser callback for installed Cadence",
+      "passed": true
+    },
+    {
+      "name": "Install installed app passes offscreen UI checks",
+      "passed": true
+    },
+    {
+      "name": "Upgrade production installer without elevation",
+      "passed": true
+    },
+    {
+      "name": "Upgrade registers browser callback for installed Cadence",
+      "passed": true
+    },
+    {
+      "name": "Upgrade installed app passes offscreen UI checks",
+      "passed": true
+    },
+    {
+      "name": "Uninstall removes executable and owned browser callback",
+      "passed": true
+    },
+    {
+      "name": "Published 1.0.2 installer upgrades to managed 1.0.4 and preserves settings",
+      "passed": true
+    }
+  ],
+  "passed": 10
+}
