@@ -1,0 +1,74 @@
+{
+  "version": "1.0.5",
+  "source_commit": "a0abff852e674e9c3ec42d34d3c4f9306a2c7897",
+  "source_modified": false,
+  "platform": "Windows 11 x64 build 26200",
+  "date": "2026-10-05",
+  "windows_logic": {
+    "passed": 172,
+    "failed": 0,
+    "skipped": 1
+  },
+  "managed_controller": {
+    "passed": 13,
+    "failed": 0,
+    "skipped": 0
+  },
+  "signin_lifetime": {
+    "passed": 9,
+    "failed": 0,
+    "skipped": 0
+  },
+  "external_editor": {
+    "passed": 7,
+    "failed": 0,
+    "skipped": 0
+  },
+  "native_refine": {
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0
+  },
+  "package_lifecycle": {
+    "passed": 16,
+    "failed": 0
+  },
+  "ui": {
+    "passed": 362,
+    "failed": 0,
+    "renders": 345
+  },
+  "managed_speech": {
+    "passed": 16,
+    "failed": 0
+  },
+  "managed_bridge": {
+    "passed": 51,
+    "failed": 0
+  },
+  "legacy_swift_speech": {
+    "passed": false,
+    "failure": "Five-minute WAV upload transcription timeout",
+    "shipping_speech_transport": ".NET"
+  },
+  "updater_modes": {
+    "commit": {
+      "passed": true,
+      "production_state_preserved": true,
+      "same_version": true,
+      "phase": "completed"
+    },
+    "cancel": {
+      "passed": true,
+      "production_state_preserved": true,
+      "same_version": true,
+      "phase": "cancelled"
+    },
+    "restart-failure": {
+      "passed": true,
+      "production_state_preserved": true,
+      "same_version": true,
+      "phase": "recovered"
+    }
+  }
+}

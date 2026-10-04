@@ -1,0 +1,30 @@
+{
+  "product": "Cadence",
+  "version": "1.0.5",
+  "source_repository": "blazespark221-byte/cadence",
+  "source_commit": "a0abff852e674e9c3ec42d34d3c4f9306a2c7897",
+  "source_modified": false,
+  "engine_build": "fresh-from-this-source",
+  "managed_account": true,
+  "own_providers_required": false,
+  "signed": false,
+  "artifacts": {
+    "Cadence-1.0.5-windows-x64-portable.zip": {
+      "bytes": 101362871,
+      "sha256": "89be42a95245754a67af88dc516718a1981a91a63c6ac891db40d13194c4be32"
+    },
+    "build-manifest.json": {
+      "bytes": 90703,
+      "sha256": "738d64d9f63b948acf9add25e291c32ea941f6506c55b3abdae039d11a5b12bd"
+    },
+    "VERIFICATION.md": {
+      "bytes": 3123,
+      "sha256": "d02ebb376ae4b569fb192052c188022cfd01b6cd3ecade661e861087d26f288d"
+    },
+    "Cadence-1.0.5-windows-x64-setup.exe": {
+      "bytes": 69558695,
+      "sha256": "34b3595230ace3daf6b663a2c60d3af1201d1c88f9e79d279110bec4f32378a3"
+    }
+  },
+  "verification": "RELEASE-VERIFICATION.md"
+}
