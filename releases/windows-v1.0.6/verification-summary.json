@@ -1,0 +1,42 @@
+{
+  "version": "1.0.6",
+  "source_commit": "0b933496209e580c904ad4657fd89c4e07bbf248",
+  "source_modified": false,
+  "date": "2026-10-05",
+  "windows_logic": {
+    "passed": 154,
+    "failed": 0,
+    "skipped": 1
+  },
+  "package_lifecycle": {
+    "passed": 12,
+    "failed": 0
+  },
+  "upgrade_baseline": "1.0.5",
+  "updater_handoff_rerun": false,
+  "website_tests": 60,
+  "ui": {
+    "passed": 404,
+    "failed": 0,
+    "renders": 384
+  },
+  "managed_speech": {
+    "passed": 16,
+    "failed": 0
+  },
+  "managed_bridge": {
+    "passed": 51,
+    "failed": 0
+  },
+  "legacy_swift_speech": {
+    "passed": false,
+    "scope": "optional legacy speech transport; shipping app uses .NET",
+    "failed_checks": [
+      {
+        "name": "five-minute WAV boundary is accepted",
+        "passed": false,
+        "error": "{\"error\":{\"code\":\"timeout\",\"message\":\"The provider request timed out. Try again or increase the timeout in Settings.\",\"stage\":\"transcription\"},\"id\":\"request-60\"}\n+ actual - expected\n\n+ undefined\n- 'Hello from the microphone.'\n"
+      }
+    ]
+  }
+}

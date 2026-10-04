@@ -1,0 +1,28 @@
+{
+  "sourceCommit": "0b933496209e580c904ad4657fd89c4e07bbf248",
+  "sourceModified": false,
+  "version": "1.0.6",
+  "installerSignature": "NotSigned",
+  "artifacts": [
+    {
+      "name": "Cadence-1.0.6-windows-x64-portable.zip",
+      "bytes": 101364621,
+      "sha256": "1c73d253a3af207d7f6478a5b997333bea37a8e29cc772248ca9459afc205ee1"
+    },
+    {
+      "name": "build-manifest.json",
+      "bytes": 90703,
+      "sha256": "e0fe36858a5ddf964b417748efcbea63ccbc508264bc8298d387fdf9b45a50a5"
+    },
+    {
+      "name": "VERIFICATION.md",
+      "bytes": 2939,
+      "sha256": "db1a15bfdf764e2b0173fa9ec1311f564bfa1ec7cdc813facf64f1c16eeb55bd"
+    },
+    {
+      "name": "Cadence-1.0.6-windows-x64-setup.exe",
+      "bytes": 69561260,
+      "sha256": "eb6cea06b6c5b4222b3c877f81939c0f58f24645f3600c3289dd9593081848f8"
+    }
+  ]
+}
