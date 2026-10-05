@@ -1,0 +1,56 @@
+{
+  "version": "1.0.7",
+  "source_commit": "863b1e53e45644d6e646873888681472841fe73d",
+  "source_modified": false,
+  "date": "2026-10-05",
+  "windows_logic": {
+    "passed": 156,
+    "failed": 0,
+    "skipped": 1
+  },
+  "package_lifecycle": {
+    "passed": 16,
+    "failed": 0
+  },
+  "upgrade_baseline": "1.0.5",
+  "updater_handoff": {
+    "same_version": true,
+    "completed_modes": [
+      "commit",
+      "cancel",
+      "restart-failure"
+    ]
+  },
+  "website_tests": 60,
+  "ui": {
+    "passed": 404,
+    "failed": 0,
+    "renders": 384
+  },
+  "managed_speech": {
+    "passed": 16,
+    "failed": 0
+  },
+  "managed_bridge": {
+    "passed": 51,
+    "failed": 0
+  },
+  "legacy_swift_speech": {
+    "passed": false,
+    "scope": "optional legacy speech transport; shipping app uses .NET",
+    "failed_checks": [
+      {
+        "name": "five-minute WAV boundary is accepted",
+        "passed": false,
+        "error": "{\"error\":{\"code\":\"timeout\",\"message\":\"The provider request timed out. Try again or increase the timeout in Settings.\",\"stage\":\"transcription\"},\"id\":\"request-60\"}\n+ actual - expected\n\n+ undefined\n- 'Hello from the microphone.'\n"
+      }
+    ]
+  },
+  "local_registration_repair": {
+    "baseline_version": "1.0.5",
+    "installer_hash_verified": true,
+    "registration_restored": true,
+    "settings_and_encrypted_session_unchanged": true,
+    "user_in_app_upgrade_verified": false
+  }
+}
