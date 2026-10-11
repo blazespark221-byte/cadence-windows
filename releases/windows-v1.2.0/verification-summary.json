@@ -1,0 +1,20 @@
+{
+  "source_commit": "49421ac5cb7c22911935fabaea7108bd0fd9fdcf",
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/38157996683",
+  "revalidation": "https://github.com/blazespark221-byte/cadence/actions/runs/38159525136",
+  "workflow_passed_after_revalidation": true,
+  "windows_logic_passed": 177,
+  "agent_portable_checks": 19,
+  "agent_native_notepad_checks": 6,
+  "offscreen_checks": 418,
+  "synthetic_renders": 396,
+  "package_gates_passed": 16,
+  "updater_handoffs": [
+    "commit",
+    "cancel",
+    "restart-failure"
+  ],
+  "live_agent_service_on_windows_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}
