@@ -1,0 +1,72 @@
+{
+  "source_commit": "8c8b8034ae98a81fff3728f68043604fccb79660",
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/38141240404",
+  "workflow_passed": true,
+  "windows_logic_passed": 177,
+  "offscreen_checks": 418,
+  "synthetic_renders": 396,
+  "daily_chart_checks": [
+    {
+      "name": "Daily word chart exposes seven exact accessible totals light",
+      "passed": true
+    },
+    {
+      "name": "Selecting a daily point shows its actual count light",
+      "passed": true
+    },
+    {
+      "name": "Daily word chart exposes seven exact accessible totals dark",
+      "passed": true
+    },
+    {
+      "name": "Selecting a daily point shows its actual count dark",
+      "passed": true
+    }
+  ],
+  "artifact_verification": {
+    "scope": "Artifact hashes, ZIP CRC and fresh source/runtime provenance only; no app, installer, microphone, desktop or service execution.",
+    "version": "1.1.1",
+    "sourceCommit": "8c8b8034ae98a81fff3728f68043604fccb79660",
+    "sourceModified": false,
+    "filesVerified": 512,
+    "engineFilesVerified": 34,
+    "artifacts": {
+      "Cadence-1.1.1-windows-x64-portable.zip": {
+        "bytes": 103333189,
+        "sha256": "51bbb864a72cb5bd0d7db2e6b5af00daaf3f94fd31e84190f8a21a27ece29ee8"
+      },
+      "build-manifest.json": {
+        "bytes": 90704,
+        "sha256": "57e9cd4f8380780ca8e3f302f521d34f84964534331e60193d6d7600571790e3"
+      },
+      "VERIFICATION.md": {
+        "bytes": 2903,
+        "sha256": "2071b926e4f6ae2ffbd75dd6cc4fe835280799c7b10a05c7fcfaf90adf6827da"
+      },
+      "Cadence-1.1.1-windows-x64-setup.exe": {
+        "bytes": 70368865,
+        "sha256": "4b2778f754e535a320f725465917a9175cc75349a8cf28cabf8924a228f926a3"
+      },
+      "artifact-manifest.json": {
+        "bytes": 857,
+        "sha256": "9047d6e2333c807ff3bb6f04a124e0980bb2d12da5017a9af139ca882734aa5f"
+      }
+    },
+    "pe": {
+      "Cadence.exe": {
+        "machine": "0x8664",
+        "certificateBytes": 0
+      },
+      "engine/CadenceWindowsBridge.exe": {
+        "machine": "0x8664",
+        "certificateBytes": 0
+      },
+      "installer": {
+        "machine": "0x14c",
+        "certificateBytes": 0
+      }
+    },
+    "passed": true
+  },
+  "full_desktop_acceptance": false
+}
