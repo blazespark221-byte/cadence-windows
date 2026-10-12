@@ -1,0 +1,27 @@
+{
+  "source_commit": "c78ca08f92a3a7680620f26cbb1aa6ffd94bdc5b",
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/38231102399",
+  "workflow_passed": true,
+  "windows_logic_passed": 178,
+  "parity_checks": 40,
+  "managed_account_checks": 283,
+  "agent_native_notepad_checks": 6,
+  "offscreen_checks": 424,
+  "synthetic_renders": 402,
+  "package_gates_passed": 16,
+  "managed_writing_bridge_checks": 59,
+  "updater_handoffs": [
+    "commit",
+    "cancel",
+    "restart-failure"
+  ],
+  "agent_voice_mark_offscreen_verified": true,
+  "agent_voice_mark_live_verified": false,
+  "light_cleanup_skip_bridge_verified": true,
+  "light_cleanup_skip_live_verified": false,
+  "browser_page_dictation_logic_verified": true,
+  "browser_page_dictation_live_verified": false,
+  "live_agent_service_on_windows_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}
