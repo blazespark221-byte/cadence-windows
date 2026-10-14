@@ -2,9 +2,9 @@
 
 Speak to insert text at your cursor, or select text, ask for a rewrite, review and replace it.
 
-[Download Windows 1.2.8](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.8/Cadence-1.2.8-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.8/Cadence-1.2.8-windows-x64-portable.zip)
+[Download Windows 1.2.9](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.9/Cadence-1.2.9-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.9/Cadence-1.2.9-windows-x64-portable.zip)
 
-**New in 1.2.8:** add files to Refine. Drag files onto the Refine window or click Add file, then say what you want: summarise a PDF, answer a letter, pull figures from a report into your selection, or draft from your notes. Cadence reads text, PDF, Word (.docx), OpenDocument and RTF files on your PC and sends only their text with your instruction, up to 5 files. Includes the Alt shortcut focus fix from 1.2.7, Google Docs dictation in Chrome and Edge from 1.2.6, the weekly dictation allowance on Home from 1.2.5, Cadence Agent's character from 1.2.4, and faster dictation cleanup from 1.2.2.
+**New in 1.2.9:** Cadence in the notch. Choose Notch (top centre) for the floating controls in General settings, or drag the glass tab's handle to the top centre of your screen. Cadence draws a small black notch there, like a MacBook's. Hover over it and the controls spring out, and while docked, dictation, Refine and Cadence Agent also grow out of the notch, as on the Mac. You can now also choose a mouse side button (Mouse 4 or Mouse 5) as a Cadence shortcut. Includes files in Refine from 1.2.8, the Alt shortcut focus fix from 1.2.7, Google Docs dictation in Chrome and Edge from 1.2.6, the weekly dictation allowance on Home from 1.2.5, Cadence Agent's character from 1.2.4, and faster dictation cleanup from 1.2.2.
 
 **Cadence Agent:** say or type what you want done, such as “Open Word and write a 300-word essay about solar energy”, and Cadence opens the app, clicks, types and writes for you, checking each step. Open it with your own shortcut (Settings → Shortcuts), the ✦ floating control, the tray menu or Home. Escape or Stop ends the task at any time.
 
@@ -12,8 +12,8 @@ Sign in from the setup guide, which opens your browser, or from Settings → Acc
 
 Includes live dictation, Cadence Agent, the daily dashboard graph, floating quick controls and in-app updates. Your account provides the managed speech and writing connection.
 
-The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.8/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
+The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.9/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
 
-[Checksums](releases/windows-v1.2.8/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.8)
+[Checksums](releases/windows-v1.2.9/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.9)
 
 This repository contains distribution files and documentation. Application source is maintained separately.
