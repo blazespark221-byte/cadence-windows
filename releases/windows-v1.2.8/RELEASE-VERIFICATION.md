@@ -1,0 +1,22 @@
+# Windows 1.2.8 release verification — 14 October 2026
+
+Application source: 1771728fdeed7bfd76e99a8e4832e7a4f02c8ac8 in blazespark221-byte/cadence (branch feature/refine-attachments-windows, on top of 1.2.7 542b6fa). The change is 4391d22, 87674df, 5dd8281, bc088fb, 4d1420e and 1771728; da6f39f sets the version.
+Build and acceptance: https://github.com/blazespark221-byte/cadence/actions/runs/38556545654
+
+The Windows shell and Swift bridge were built fresh from clean source on an isolated Windows x64 runner. Installer and portable ZIP hashes were checked against the build and artifact manifests after download.
+
+What changed: Refine accepts files dropped on its window or chosen with Add file. They are read on the PC (plain text and code; Word .docx; OpenDocument text; RTF; PDF text layers through a built-in reader, since Windows has no PDF text API) and only their text goes to the bridge, which places each file in a nonce-tagged reference block ahead of the request. Up to five files; the selection, instruction and file text are kept under the writing service's 64 KiB request limit (at most 40,000 bytes of file text). Files can't change while a request runs, changing them after a result requires a new rewrite, and a result written with files always waits for review, even for a preset trusted to apply directly. Encrypted PDFs, scans, images and legacy .doc files are reported with a way forward instead of being guessed.
+
+Executed on this candidate:
+- 196 Windows logic/controller checks, zero failures (one separate desktop suite excluded). New: 14 file-reader checks (format classification, UTF-8/UTF-16/Latin-1 decoding and binary rejection, normalization and bounds, Word, OpenDocument and RTF text, and generated PDFs covering WinAnsi text, kerning and positioned word gaps, Flate content with Type0 fonts and ToUnicode maps inside compressed object streams, Differences encodings, form XObjects, encrypted and image-only files, plus a PDF printed headless by a Chromium browser on the runner and read back as its text), and 3 controller checks through the real bridge: a file reaches the provider request as a reference block before the editing request, a trusted preset still previews a result written with files, and a selection too long for its files fails before any provider request.
+- 62 managed-writing/core bridge checks, including 3 new attachment checks (reference blocks in the HTTP request, drafts from files alone, and rejection of too many, empty or oversized files and of a selection that leaves no room).
+- 451 offscreen UI checks and 426 synthetic renders. New: Refine offers Add file, shows an attached file with its remove button and explains an unreadable one, keeps the file row in review, disables Add file and removal while working, and asks for a new rewrite after a file is removed.
+- 12 native browser dictation checks with real Chrome 154 and Edge on the runner desktop, all passing on their first attempt; 4 native opaque-editor checks; 6 native Cadence Agent checks against real Notepad.
+- 40 portable Cadence Agent, streaming and settings parity checks; 283 managed-account checks; 7 packaged floating-control input checks; 16 managed .NET speech checks with local services.
+- 16 package and lifecycle gates on the exact candidate: isolated upgrade from 1.0.4, restart/reinstall, settings and encrypted-session retention, uninstall, and updater commit/cancel/restart-failure handoffs.
+
+The shared core (prompt placement, request budget, coordinator handling) also passed 703 CadenceChecks on Windows with Swift 6.3.3.
+
+The optional legacy Swift bridge capability check failed its five-minute WAV boundary, as in 1.1.0 through 1.2.7. It is not the shipping managed route.
+
+Not tested: dragging files from File Explorer and the Add file dialog by hand (the checks call the same code paths offscreen); a rewrite with files through the live Cadence service; real Office, LibreOffice and scanner output beyond the generated and browser-printed files; large real-world PDFs and right-to-left or vertical text layouts; the 1.2.7 Alt fix on the reporting user's PC; real Google Docs (docs.google.com) on a Windows desktop; a physical microphone session; the agent with the live AI service on Windows; a real-user browser sign-in from the welcome guide; production-identity installation; and monitor/DPI transitions. The installer is unsigned. No provider key or customer credential is embedded in these packages.

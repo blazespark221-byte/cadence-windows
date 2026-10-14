@@ -1,0 +1,41 @@
+{
+  "source_commit": "1771728fdeed7bfd76e99a8e4832e7a4f02c8ac8",
+  "app_change_commits": [
+    "4391d22",
+    "87674df",
+    "5dd8281",
+    "bc088fb",
+    "1771728"
+  ],
+  "base_release": "1.2.7 (542b6fa)",
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/38556545654",
+  "workflow_passed": true,
+  "windows_logic_passed": 196,
+  "refine_attachment_logic_checks": 14,
+  "refine_attachment_controller_bridge_checks": 3,
+  "browser_printed_pdf_read_back": true,
+  "parity_checks": 40,
+  "managed_account_checks": 283,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 4,
+  "offscreen_checks": 451,
+  "synthetic_renders": 426,
+  "package_gates_passed": 16,
+  "managed_writing_bridge_checks": 62,
+  "managed_speech_checks": 16,
+  "packaged_floating_interaction_checks": 7,
+  "updater_handoffs": [
+    "commit",
+    "cancel",
+    "restart-failure"
+  ],
+  "refine_attachments_drag_drop_verified_by_hand": false,
+  "refine_attachments_live_service_verified": false,
+  "refine_attachments_real_office_documents_verified": false,
+  "alt_shortcut_verified_on_user_pc": false,
+  "browser_page_dictation_live_google_docs_verified": false,
+  "live_agent_service_on_windows_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}
