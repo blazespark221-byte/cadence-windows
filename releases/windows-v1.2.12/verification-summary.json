@@ -1,0 +1,28 @@
+{
+  "source_commit": "2b77508101a7b4b5391bd980371fc6f55c1a1d51",
+  "app_change_commits": [
+    "5ab3e96 (Cadence Agent voice conversation, composer, Agent page)",
+    "2b77508 (retuned talk-to-interrupt)"
+  ],
+  "base_release": "1.2.11 (10d2d3d, record 30033df)",
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/39035379129",
+  "workflow_passed": true,
+  "windows_logic_passed": 202,
+  "parity_checks": 77,
+  "managed_account_checks": 302,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 4,
+  "managed_speech_checks": 16,
+  "packaged_floating_interaction_checks": 7,
+  "artifact_verifier_payload_files": 512,
+  "updater_handoffs": [
+    "commit",
+    "cancel",
+    "restart-failure"
+  ],
+  "agent_voice_conversation": true,
+  "live_microphone_on_windows_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}
