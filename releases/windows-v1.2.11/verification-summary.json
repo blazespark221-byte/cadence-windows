@@ -1,0 +1,30 @@
+{
+  "source_commit": "10d2d3d9d6c10ddc46f9c7f457c17e09030f12b5",
+  "app_change_commits": [
+    "992ab2f-windows (quiet no-speech, fix/quiet-no-speech-windows)",
+    "claude/speed-windows merge",
+    "9c9513e"
+  ],
+  "base_release": "1.2.10 (7340d60, record 951acb3)",
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/38994561120",
+  "workflow_passed": true,
+  "windows_logic_passed": 200,
+  "parity_checks": 59,
+  "managed_account_checks": 302,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 4,
+  "package_gates_passed": 16,
+  "managed_speech_checks": 16,
+  "packaged_floating_interaction_checks": 7,
+  "artifact_verifier_checks": 57,
+  "updater_handoffs": [
+    "commit",
+    "cancel",
+    "restart-failure"
+  ],
+  "on_device_light_cleanup": true,
+  "live_microphone_on_windows_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}
