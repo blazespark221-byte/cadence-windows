@@ -1,0 +1,29 @@
+{
+  "source_commit": "d6f11ee757a0e7504d152d0fbfe57b9fefe7d754",
+  "app_change_commits": [
+    "a4e3db3 (dictation inserts at the cursor in any app)"
+  ],
+  "base_release": "1.2.13 (c16ea19)",
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/39225368315",
+  "workflow_passed": true,
+  "windows_logic_passed": 203,
+  "parity_checks": 78,
+  "managed_account_checks": 302,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 5,
+  "packaged_floating_interaction_checks": 7,
+  "managed_speech_checks": 16,
+  "artifact_verifier_payload_files": 512,
+  "updater_handoffs": [
+    "commit",
+    "cancel",
+    "restart-failure"
+  ],
+  "dictation_follows_caret": true,
+  "opaque_editor_clipboard_backup": true,
+  "notch_default_for_new_installs": true,
+  "live_microphone_on_windows_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}
