@@ -1,0 +1,28 @@
+{
+  "source_commit": "c16ea19c674f1bcad65e0048fb7e9ac688d7766d",
+  "app_change_commits": [
+    "dca9d7c (new installs start with Cadence docked in the notch)"
+  ],
+  "base_release": "1.2.12 (2b77508, record c1217a9)",
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/39225138769",
+  "workflow_passed": true,
+  "windows_logic_passed": 202,
+  "parity_checks": 78,
+  "managed_account_checks": 302,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 4,
+  "packaged_floating_interaction_checks": 7,
+  "managed_speech_checks": 16,
+  "artifact_verifier_payload_files": 512,
+  "updater_handoffs": [
+    "commit",
+    "cancel",
+    "restart-failure"
+  ],
+  "notch_default_for_new_installs": true,
+  "existing_floating_position_kept": true,
+  "live_microphone_on_windows_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}
