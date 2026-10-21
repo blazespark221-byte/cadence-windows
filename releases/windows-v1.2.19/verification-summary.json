@@ -1,0 +1,32 @@
+{
+  "source_commit": "03bbad27c905839b24f74179853dab2befb9cab3",
+  "app_change_commits": [
+    "748cbb5 (Cadence Agent stays in the main window's Agent page)",
+    "329baa9 (every install moves into the notch once)",
+    "3eb52d1 (rounded Refine buttons without the blue hover)"
+  ],
+  "base_release": "1.2.18 (70f4f73)",
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/39559056199",
+  "workflow_passed": true,
+  "windows_logic_passed": 212,
+  "parity_checks": 79,
+  "managed_account_checks": 1855,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 5,
+  "clipboard_format_native_checks": 8,
+  "packaged_floating_interaction_checks": 7,
+  "managed_speech_checks": 16,
+  "artifact_verifier_payload_files": 512,
+  "updater_handoffs": [
+    "commit",
+    "cancel",
+    "restart-failure"
+  ],
+  "agent_page_in_window_conversation": true,
+  "notch_moved_once_for_existing_installs": true,
+  "refine_buttons_rounded": true,
+  "live_microphone_on_windows_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}

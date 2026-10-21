@@ -1,0 +1,43 @@
+{
+  "product": "Cadence",
+  "version": "1.2.19",
+  "source_repository": "blazespark221-byte/cadence",
+  "source_commit": "03bbad27c905839b24f74179853dab2befb9cab3",
+  "source_modified": false,
+  "engine_build": "fresh-from-this-source",
+  "managed_account": true,
+  "own_providers_required": false,
+  "signed": false,
+  "ci_run": "https://github.com/blazespark221-byte/cadence/actions/runs/39559056199",
+  "build_run": "https://github.com/blazespark221-byte/cadence/actions/runs/39559056199",
+  "verification_source": "03bbad27c905839b24f74179853dab2befb9cab3",
+  "candidate_storage": "private draft release windows-candidate-1.2.19-39559056199 (Actions artifact storage was full)",
+  "artifacts": [
+    {
+      "name": "Cadence-1.2.19-windows-x64-portable.zip",
+      "bytes": 105141964,
+      "sha256": "17eef62a450fee0dcd42aec0ed6907815485f388cc71f17bd2328dc0d6c453dc"
+    },
+    {
+      "name": "build-manifest.json",
+      "bytes": 90706,
+      "sha256": "071722ae10f9401a4778f00ec495bbea3418a07cdfbe78012fa19e0f3791d85d"
+    },
+    {
+      "name": "VERIFICATION.md",
+      "bytes": 2903,
+      "sha256": "2071b926e4f6ae2ffbd75dd6cc4fe835280799c7b10a05c7fcfaf90adf6827da"
+    },
+    {
+      "name": "Cadence-1.2.19-windows-x64-setup.exe",
+      "bytes": 71761623,
+      "sha256": "4dfbc0fbc7961a8f6c7cb08414e4032ba3917c0ca3a381a6f066092f95f7f2f3"
+    },
+    {
+      "name": "artifact-manifest.json",
+      "bytes": 860,
+      "sha256": "91d259a7993e8655b628a47c6b7caa2559a20d4d4b80eab510cff2160d9f3ab4"
+    }
+  ],
+  "verification": "RELEASE-VERIFICATION.md"
+}
