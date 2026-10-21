@@ -1,0 +1,30 @@
+{
+  "source_commit": "21ad23b7c03e52b49e4511dd4754d7d753838c8b",
+  "app_change_commits": [
+    "21ad23b (pictures stay on the clipboard instead of blocking the paste)"
+  ],
+  "base_release": "1.2.14 (d6f11ee)",
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/39222188140",
+  "workflow_passed": true,
+  "windows_logic_passed": 203,
+  "parity_checks": 78,
+  "managed_account_checks": 302,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 5,
+  "clipboard_format_native_checks": 8,
+  "packaged_floating_interaction_checks": 7,
+  "managed_speech_checks": 16,
+  "artifact_verifier_payload_files": 512,
+  "updater_handoffs": [
+    "commit",
+    "cancel",
+    "restart-failure"
+  ],
+  "clipboard_pictures_preserved": true,
+  "dictation_follows_caret": true,
+  "notch_default_for_new_installs": true,
+  "live_microphone_on_windows_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}
