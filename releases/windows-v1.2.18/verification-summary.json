@@ -1,0 +1,39 @@
+{
+  "source_commit": "70f4f739fb83f5cb99da995b4d1b23ce571af425",
+  "app_change_commits": [
+    "70f4f73 (an account is required in the welcome guide; Settings → Account shows the signed-in email; signed-out shortcuts offer Sign in)",
+    "89342e9 (1.2.17: the starting window returns to the front after browser sign-in)"
+  ],
+  "base_release": "1.2.16 (376f92e) via 1.2.17 (89342e9)",
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/39559036568",
+  "workflow_passed": true,
+  "windows_logic_passed": 212,
+  "parity_checks": 79,
+  "managed_account_checks": 1855,
+  "packaged_offscreen_checks": 471,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 5,
+  "clipboard_format_native_checks": 8,
+  "packaged_floating_interaction_checks": 7,
+  "managed_speech_checks": 18,
+  "artifact_verifier_payload_files": 512,
+  "updater_handoffs": [
+    "commit",
+    "cancel",
+    "restart-failure"
+  ],
+  "account_required_in_setup": true,
+  "signed_in_email_shown": true,
+  "signed_out_shortcut_offers_sign_in": true,
+  "browser_sign_in_returns_to_app": true,
+  "service_refuses_requests_without_account": true,
+  "stuck_key_shortcut_recovery": true,
+  "clipboard_pictures_preserved": true,
+  "dictation_follows_caret": true,
+  "notch_default_for_new_installs": true,
+  "real_browser_sign_in_on_windows_verified": false,
+  "live_microphone_on_windows_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}
