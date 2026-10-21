@@ -1,0 +1,37 @@
+{
+  "source_commit": "89342e98ccee350d19a132697777e3a32c7cc4b2",
+  "app_change_commits": [
+    "f36d71a (usage refusals explained from the plan)",
+    "89342e9 (browser sign-in returns to Cadence)"
+  ],
+  "base_release": "1.2.16 (376f92e)",
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/39556737554",
+  "workflow_attempt": 4,
+  "workflow_passed": true,
+  "windows_logic_passed": 210,
+  "parity_checks": 79,
+  "managed_account_checks": 1827,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 5,
+  "clipboard_format_native_checks": 8,
+  "packaged_floating_interaction_checks": 7,
+  "managed_speech_checks": 18,
+  "artifact_verifier_payload_files": 512,
+  "updater_handoffs": [
+    "commit",
+    "cancel",
+    "restart-failure"
+  ],
+  "sign_in_returns_to_cadence": true,
+  "real_browser_sign_in_return_verified": false,
+  "clerk_consent_screen_disabled": true,
+  "usage_refusal_wording": true,
+  "stuck_key_shortcut_recovery": true,
+  "clipboard_pictures_preserved": true,
+  "dictation_follows_caret": true,
+  "notch_default_for_new_installs": true,
+  "live_microphone_on_windows_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}
