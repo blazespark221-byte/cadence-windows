@@ -1,0 +1,39 @@
+{
+  "source_commit": "e304a7b21d9a499f5e4b8ed3bdfd04bd0f4a3ebf",
+  "app_change_commits": [
+    "9f386ab (the recording pill and notch island no longer show a live transcript)"
+  ],
+  "base_release": "1.2.19 (03bbad2), containing 1.2.18 (70f4f73) and 1.2.17 (89342e9)",
+  "published_before_base": true,
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/39559765463",
+  "workflow_passed": true,
+  "windows_logic_passed": 212,
+  "parity_checks": 79,
+  "managed_account_checks": 1855,
+  "packaged_smoke_checks_each": 50,
+  "packaged_offscreen_checks": 489,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 5,
+  "clipboard_format_native_checks": 8,
+  "packaged_floating_interaction_checks": 7,
+  "managed_speech_checks": 18,
+  "artifact_verifier_payload_files": 512,
+  "updater_handoffs": [
+    "commit",
+    "cancel",
+    "restart-failure"
+  ],
+  "compact_dictation_popup": true,
+  "agent_page_conversation": true,
+  "notch_move_for_existing_installs": true,
+  "browser_sign_in_returns_to_app": true,
+  "account_required_in_setup": true,
+  "signed_in_email_shown": true,
+  "stuck_key_shortcut_recovery": true,
+  "clipboard_pictures_preserved": true,
+  "dictation_follows_caret": true,
+  "live_microphone_on_windows_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}
