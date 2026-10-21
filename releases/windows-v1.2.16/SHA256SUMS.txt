@@ -1,0 +1,5 @@
+4324e7b0d35fa9cdf3c831b7f0ac256fbe787e1e7acabbeee036473e7a7d3aad  Cadence-1.2.16-windows-x64-portable.zip
+422a9c994202749cee80eb87b3ae2f1de78e11443690aa9b0bd007076f6658bb  build-manifest.json
+2071b926e4f6ae2ffbd75dd6cc4fe835280799c7b10a05c7fcfaf90adf6827da  VERIFICATION.md
+a99d25381ee4e9d649c8e6156bea3167999b001781056417a44683425f8ff165  Cadence-1.2.16-windows-x64-setup.exe
+c9595f7f3dcd14765afea68028ccacab181950a50a3b7ee187e4e567e116ef91  artifact-manifest.json
