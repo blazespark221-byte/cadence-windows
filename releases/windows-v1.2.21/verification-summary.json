@@ -1,0 +1,36 @@
+{
+  "source_commit": "01ff69768542c98fec21bf6fb6e5cf61dcdf7cdf",
+  "app_change_commits": [
+    "01ff697 (the sidebar dictation shortcut is a button that records a new shortcut; capture rules shared with Settings)"
+  ],
+  "base_release": "1.2.20 (64f33f6)",
+  "published_before_base": false,
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/39926583422",
+  "workflow_passed": true,
+  "windows_logic_passed": 215,
+  "shortcut_capture_native_checks": 11,
+  "sidebar_shortcut_native_checks": 4,
+  "parity_checks": 79,
+  "managed_account_checks": 1855,
+  "packaged_smoke_checks_each": 50,
+  "packaged_offscreen_checks": 499,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 5,
+  "clipboard_format_native_checks": 8,
+  "packaged_floating_interaction_checks": 7,
+  "managed_speech_checks": 18,
+  "artifact_verifier_payload_files": 512,
+  "updater_handoffs": [
+    "commit",
+    "cancel",
+    "restart-failure"
+  ],
+  "sidebar_shortcut_change": true,
+  "compact_dictation_popup": true,
+  "agent_page_conversation": true,
+  "physical_mouse_side_buttons_verified": false,
+  "live_microphone_on_windows_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}
