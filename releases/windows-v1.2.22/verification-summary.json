@@ -1,0 +1,31 @@
+{
+  "source_commit": "d74cdd1d0ac31508960e4f34378efee50952d35f",
+  "app_change_commits": [
+    "d74cdd1 (text that can't be inserted is copied to the clipboard at once, for Ctrl+V)"
+  ],
+  "base_release": "1.2.21 (ef01ebd)",
+  "published_before_base": false,
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/40091829493",
+  "workflow_passed": true,
+  "windows_logic_passed": 215,
+  "clipboard_checks": 10,
+  "failed_insertion_copy_checks": 2,
+  "shortcut_capture_native_checks": 11,
+  "parity_checks": 79,
+  "managed_account_checks": 1855,
+  "packaged_headless_gates": 4,
+  "package_lifecycle_gates": 16,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 5,
+  "packaged_floating_interaction_checks": 7,
+  "artifact_verifier_payload_files": 512,
+  "copies_text_after_failed_insertion": true,
+  "sidebar_shortcut_change": true,
+  "compact_dictation_popup": true,
+  "agent_page_conversation": true,
+  "failed_insertion_paste_on_physical_pc_verified": false,
+  "live_microphone_on_windows_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}
