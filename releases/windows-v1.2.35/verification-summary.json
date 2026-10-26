@@ -1,0 +1,39 @@
+{
+  "source_commit": "ff13db236891fc98c1ff551bf3b793de99896cbd",
+  "app_change_commits": [
+    "2b1285f (shared CadenceCore DictationStyle, stylePrompt and limits; output filter rejects style_example)",
+    "7223bba (bridge rewrite takes a style)",
+    "e56418a (Styles settings, notch Style row, Styles page, tray picker, popup style name)"
+  ],
+  "base_release": "1.2.34 (0517a6a, record e4f2028)",
+  "unpublished_versions_included": [],
+  "versions_not_included": [
+    "1.2.30"
+  ],
+  "published_before_base": false,
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/40318615986",
+  "workflow_passed": true,
+  "windows_logic_passed": 224,
+  "annotate_offscreen_checks": 6,
+  "clipboard_checks": 10,
+  "shortcut_capture_native_checks": 11,
+  "parity_checks": 98,
+  "managed_account_checks": 1875,
+  "packaged_headless_gates": 4,
+  "package_lifecycle_gates": 16,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 5,
+  "packaged_floating_interaction_checks": 7,
+  "artifact_verifier_payload_files": 514,
+  "workflow_attempts": 1,
+  "app_offscreen_checks_local": 617,
+  "cadence_core_checks_local": 795,
+  "bridge_managed_app_tests_local": 73,
+  "dictation_styles": true,
+  "styled_dictation_live_service_verified": false,
+  "notch_style_row_on_physical_pc_verified": false,
+  "live_microphone_on_windows_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}

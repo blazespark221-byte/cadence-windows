@@ -2,9 +2,11 @@
 
 Speak to insert text at your cursor, or select text, ask for a rewrite, review and replace it.
 
-[Download Windows 1.2.34](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.34/Cadence-1.2.34-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.34/Cadence-1.2.34-windows-x64-portable.zip)
+[Download Windows 1.2.35](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.35/Cadence-1.2.35-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.35/Cadence-1.2.35-windows-x64-portable.zip)
 
-**New in 1.2.34:** Annotate and Translate keep your normal mouse pointer instead of turning it into a glowing rainbow ring. Click and drag to circle something, as before; the rainbow line and its sparkles haven’t changed.
+**New in 1.2.35:** Styles. Make a style for each group you write to, such as friends, your partner, family or work, and paste in a few messages you’ve sent them. While a style is in use, what you dictate is rewritten in that voice: the same tone, length, punctuation, emoji and slang, with everything you said kept. Choose Off to go back to your cleanup level. Switch in one click from the Style row in the notch or the tray menu; the main window has a new Styles page to add and edit them, and the dictation popup names the style while you speak. A styled dictation counts as one writing request, like cleanup.
+
+**In 1.2.34:** Annotate and Translate keep your normal mouse pointer instead of turning it into a glowing rainbow ring. Click and drag to circle something, as before; the rainbow line and its sparkles haven’t changed.
 
 **In 1.2.33:** Annotate and Translate work again. In 1.2.29 they stopped with “Cadence couldn’t capture your screen” on every PC. Chat, Cadence Agent (including its spoken replies), Annotate and Translate now share a weekly allowance: 20 requests on Free and 1,000 on Pro (fair use), resetting every Monday at 00:00 UTC. Dictation, dictation cleanup and Refine don’t count toward it. When it runs out, Cadence tells you when it resets instead of “Cadence can’t help with that message”, and Settings → Account shows how many you’ve used this week. 1.2.31 and 1.2.32 weren’t published on their own; both are in 1.2.33.
 
@@ -18,8 +20,8 @@ Sign in from the setup guide, which opens your browser, or from Settings → Acc
 
 Includes live dictation, Cadence Agent, the daily dashboard graph, floating quick controls and in-app updates. Your account provides the managed speech and writing connection.
 
-The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.34/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
+The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.35/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
 
-[Checksums](releases/windows-v1.2.34/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.34)
+[Checksums](releases/windows-v1.2.35/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.35)
 
 This repository contains distribution files and documentation. Application source is maintained separately.
