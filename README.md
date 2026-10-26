@@ -2,9 +2,11 @@
 
 Speak to insert text at your cursor, or select text, ask for a rewrite, review and replace it.
 
-[Download Windows 1.2.33](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.33/Cadence-1.2.33-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.33/Cadence-1.2.33-windows-x64-portable.zip)
+[Download Windows 1.2.34](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.34/Cadence-1.2.34-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.34/Cadence-1.2.34-windows-x64-portable.zip)
 
-**New in 1.2.33:** Annotate and Translate work again. In 1.2.29 they stopped with “Cadence couldn’t capture your screen” on every PC. Chat, Cadence Agent (including its spoken replies), Annotate and Translate now share a weekly allowance: 20 requests on Free and 1,000 on Pro (fair use), resetting every Monday at 00:00 UTC. Dictation, dictation cleanup and Refine don’t count toward it. When it runs out, Cadence tells you when it resets instead of “Cadence can’t help with that message”, and Settings → Account shows how many you’ve used this week. 1.2.31 and 1.2.32 weren’t published on their own; both are in 1.2.33.
+**New in 1.2.34:** Annotate and Translate keep your normal mouse pointer instead of turning it into a glowing rainbow ring. Click and drag to circle something, as before; the rainbow line and its sparkles haven’t changed.
+
+**In 1.2.33:** Annotate and Translate work again. In 1.2.29 they stopped with “Cadence couldn’t capture your screen” on every PC. Chat, Cadence Agent (including its spoken replies), Annotate and Translate now share a weekly allowance: 20 requests on Free and 1,000 on Pro (fair use), resetting every Monday at 00:00 UTC. Dictation, dictation cleanup and Refine don’t count toward it. When it runs out, Cadence tells you when it resets instead of “Cadence can’t help with that message”, and Settings → Account shows how many you’ve used this week. 1.2.31 and 1.2.32 weren’t published on their own; both are in 1.2.33.
 
 **In 1.2.29:** circle anything on your screen and ask Cadence about it. Press Ctrl+Alt+C (or choose Annotate in the notch, the floating controls or the tray), draw a loop around a question, paragraph or error message, then type or say your question. The answer comes from Cadence Chat. Windows’ own text recognition reads the circled words on your PC; only those words and your question are sent. Translate works the same way: press Ctrl+Alt+T, circle the text, and the translation appears in a card out of the notch, ready to copy. Chat now opens out of the notch, like Refine and Cadence Agent. A new six-step welcome guide includes a microphone test that tells you whether your microphone works, was too quiet or isn’t available. The app has a quieter graphite look, with Windows’ own icons in the sidebar, and the Release notes button is gone. 1.2.25 to 1.2.28 weren’t published on their own; everything they added is in 1.2.29.
 
@@ -16,8 +18,8 @@ Sign in from the setup guide, which opens your browser, or from Settings → Acc
 
 Includes live dictation, Cadence Agent, the daily dashboard graph, floating quick controls and in-app updates. Your account provides the managed speech and writing connection.
 
-The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.33/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
+The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.34/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
 
-[Checksums](releases/windows-v1.2.33/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.33)
+[Checksums](releases/windows-v1.2.34/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.34)
 
 This repository contains distribution files and documentation. Application source is maintained separately.
