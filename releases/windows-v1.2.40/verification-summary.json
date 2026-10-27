@@ -1,0 +1,43 @@
+{
+  "source_commit": "79b71a4429e8b7a83749314dc41abdc50faa805a",
+  "app_change_commits": [
+    "e144258 (dictation on this PC with Parakeet TDT 0.6B v3 through ONNX Runtime 1.31.0; the only dictation speech model, no online fallback; on-device usage counted via POST /v1/dictation/usage)",
+    "96bac3a (1.2.40 bump and notes)",
+    "e303667 (usage report diagnostic uses fixed literals)",
+    "8f0ea53 (Parakeet Settings checks split; Dictionary note)",
+    "79b71a4 (offscreen language check picks a Parakeet language by name)"
+  ],
+  "check_only_commits": [],
+  "base_release": "1.2.39 (e204afa, record 6032828)",
+  "unpublished_versions_included": [],
+  "versions_not_included": [],
+  "published_before_base": false,
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/40509041189",
+  "build_workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/40509041189",
+  "workflow_passed": true,
+  "candidate_revalidated_without_rebuild": false,
+  "earlier_failed_runs": [
+    "https://github.com/blazespark221-byte/cadence/actions/runs/40502313349 (96bac3a; diagnostics allowlist check could not read the usage report's switch expression)",
+    "https://github.com/blazespark221-byte/cadence/actions/runs/40503950032 (e303667; packaged offscreen check for the Parakeet Settings section read a Hyperlink through TextBlock.Text)",
+    "https://github.com/blazespark221-byte/cadence/actions/runs/40506497861 (8f0ea53; packaged offscreen harness still looked for the removed Spoken language code box)"
+  ],
+  "windows_logic_passed": 230,
+  "annotate_offscreen_checks": 7,
+  "clipboard_checks": 10,
+  "shortcut_capture_native_checks": 11,
+  "parity_checks": 186,
+  "managed_account_checks": 1882,
+  "packaged_headless_gates": 4,
+  "package_lifecycle_gates": 16,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 5,
+  "packaged_floating_interaction_checks": 7,
+  "artifact_verifier_payload_files": 525,
+  "onnx_runtime_and_vc_runtime_bundled": true,
+  "parakeet_inference_on_windows_verified": false,
+  "parakeet_inference_verified_with_same_onnx_model_on_mac": true,
+  "live_microphone_dictation_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}

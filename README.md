@@ -2,9 +2,11 @@
 
 Speak to insert text at your cursor, or select text, ask for a rewrite, review and replace it.
 
-[Download Windows 1.2.39](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.39/Cadence-1.2.39-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.39/Cadence-1.2.39-windows-x64-portable.zip)
+[Download Windows 1.2.40](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.40/Cadence-1.2.40-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.40/Cadence-1.2.40-windows-x64-portable.zip)
 
-**New in 1.2.39:** The same controls wherever you put them. With the floating controls at the bottom, left, top or right of the screen, hovering the glass tab now opens the same panel as the notch, with the same controls (Dictate, Rewrite, Chat, Annotate, Translate, Cadence Agent, Cleanup, Style, sounds, Position, Settings and Hide), springing out of the tab. Before, those positions opened an older row of small symbol buttons.
+**New in 1.2.40:** Dictation runs on your PC. Cadence transcribes what you say with NVIDIA Parakeet TDT 0.6B v3 on this PC, so your recording is never uploaded and dictation is faster. The first time, Cadence downloads Parakeet (about 670 MB) in the background, and dictation works once it’s ready; Settings → Dictation shows the progress. Parakeet understands English and 24 other European languages. Dictation still counts toward your weekly dictation allowance: Cadence sends only the number of words and seconds, never your words or audio.
+
+**In 1.2.39:** The same controls wherever you put them. With the floating controls at the bottom, left, top or right of the screen, hovering the glass tab now opens the same panel as the notch, with the same controls (Dictate, Rewrite, Chat, Annotate, Translate, Cadence Agent, Cleanup, Style, sounds, Position, Settings and Hide), springing out of the tab. Before, those positions opened an older row of small symbol buttons.
 
 **In 1.2.38:** Choose Cadence Agent’s model, GPT-6 Luna (every plan) or Claude Opus 5.5 (Pro), from the new Model button in the Agent composer. When you’re signed in, voice mode is now a live conversation: Cadence listens and answers while you talk, then does what you ask with the same approvals as a typed request (Free 10 minutes a week, Pro 60, up to 10 minutes per conversation; it falls back to the standard voice if it can’t connect). Cadence Agent can write emails by opening a filled-in Gmail or email-app window for you to check and send (it never sends email itself), and you can add your own tools as MCP connectors in Settings → Connectors; Gmail and Outlook sign-in isn’t switched on yet. Home says how many times faster than typing you are, Translate can search 108 languages, the dictation bubbles move on quiet microphones, and from this version on an Update available window at launch updates Cadence in one click.
 
@@ -24,8 +26,8 @@ Sign in from the setup guide, which opens your browser, or from Settings → Acc
 
 Includes live dictation, Cadence Agent, the daily dashboard graph, floating quick controls and in-app updates. Your account provides the managed speech and writing connection.
 
-The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.39/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
+The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.40/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
 
-[Checksums](releases/windows-v1.2.39/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.39)
+[Checksums](releases/windows-v1.2.40/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.40)
 
 This repository contains distribution files and documentation. Application source is maintained separately.
