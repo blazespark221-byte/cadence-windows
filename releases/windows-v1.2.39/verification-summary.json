@@ -1,0 +1,42 @@
+{
+  "source_commit": "e204afa5da2c1f9b221408c7f72eb3b361b74197",
+  "app_change_commits": [
+    "e204afa (edge positions open the notch panel: NotchControlsWindow presents every position, EdgeSurface, FloatingControlsWindow removed; 1.2.39 bump)"
+  ],
+  "check_only_commits": [
+    "fa398f1 (edge panel settle timed from the open)",
+    "e7405fc (with animations off the edge panel opens resolved)"
+  ],
+  "base_release": "1.2.38 (388d082, record d56ba0c)",
+  "unpublished_versions_included": [],
+  "versions_not_included": [],
+  "published_before_base": false,
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/40482981965",
+  "build_workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/40480000405",
+  "workflow_passed": true,
+  "candidate_revalidated_without_rebuild": true,
+  "earlier_failed_runs": [
+    "https://github.com/blazespark221-byte/cadence/actions/runs/40480000405 (e204afa; only the packaged floating-control check: its settle check assumed animations, the runner has them off)",
+    "https://github.com/blazespark221-byte/cadence/actions/runs/40482253560 (fa398f1; same check, same reason)"
+  ],
+  "windows_logic_passed": 230,
+  "annotate_offscreen_checks": 7,
+  "clipboard_checks": 10,
+  "shortcut_capture_native_checks": 11,
+  "parity_checks": 169,
+  "managed_account_checks": 1882,
+  "packaged_headless_gates": 4,
+  "package_lifecycle_gates": 16,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 5,
+  "packaged_floating_interaction_checks": 7,
+  "artifact_verifier_payload_files": 514,
+  "app_offscreen_checks_local": 648,
+  "logic_only_local": 205,
+  "edge_controls_open_notch_panel": true,
+  "edge_panel_real_pointer_with_animations_verified": false,
+  "multi_display_edge_placement_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}

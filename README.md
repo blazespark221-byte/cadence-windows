@@ -2,9 +2,11 @@
 
 Speak to insert text at your cursor, or select text, ask for a rewrite, review and replace it.
 
-[Download Windows 1.2.38](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.38/Cadence-1.2.38-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.38/Cadence-1.2.38-windows-x64-portable.zip)
+[Download Windows 1.2.39](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.39/Cadence-1.2.39-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.39/Cadence-1.2.39-windows-x64-portable.zip)
 
-**New in 1.2.38:** Choose Cadence Agent’s model, GPT-6 Luna (every plan) or Claude Opus 5.5 (Pro), from the new Model button in the Agent composer. When you’re signed in, voice mode is now a live conversation: Cadence listens and answers while you talk, then does what you ask with the same approvals as a typed request (Free 10 minutes a week, Pro 60, up to 10 minutes per conversation; it falls back to the standard voice if it can’t connect). Cadence Agent can write emails by opening a filled-in Gmail or email-app window for you to check and send (it never sends email itself), and you can add your own tools as MCP connectors in Settings → Connectors; Gmail and Outlook sign-in isn’t switched on yet. Home says how many times faster than typing you are, Translate can search 108 languages, the dictation bubbles move on quiet microphones, and from this version on an Update available window at launch updates Cadence in one click.
+**New in 1.2.39:** The same controls wherever you put them. With the floating controls at the bottom, left, top or right of the screen, hovering the glass tab now opens the same panel as the notch, with the same controls (Dictate, Rewrite, Chat, Annotate, Translate, Cadence Agent, Cleanup, Style, sounds, Position, Settings and Hide), springing out of the tab. Before, those positions opened an older row of small symbol buttons.
+
+**In 1.2.38:** Choose Cadence Agent’s model, GPT-6 Luna (every plan) or Claude Opus 5.5 (Pro), from the new Model button in the Agent composer. When you’re signed in, voice mode is now a live conversation: Cadence listens and answers while you talk, then does what you ask with the same approvals as a typed request (Free 10 minutes a week, Pro 60, up to 10 minutes per conversation; it falls back to the standard voice if it can’t connect). Cadence Agent can write emails by opening a filled-in Gmail or email-app window for you to check and send (it never sends email itself), and you can add your own tools as MCP connectors in Settings → Connectors; Gmail and Outlook sign-in isn’t switched on yet. Home says how many times faster than typing you are, Translate can search 108 languages, the dictation bubbles move on quiet microphones, and from this version on an Update available window at launch updates Cadence in one click.
 
 **In 1.2.35:** Styles. Make a style for each group you write to, such as friends, your partner, family or work, and paste in a few messages you’ve sent them. While a style is in use, what you dictate is rewritten in that voice: the same tone, length, punctuation, emoji and slang, with everything you said kept. Choose Off to go back to your cleanup level. Switch in one click from the Style row in the notch or the tray menu; the main window has a new Styles page to add and edit them, and the dictation popup names the style while you speak. A styled dictation counts as one writing request, like cleanup.
 
@@ -22,8 +24,8 @@ Sign in from the setup guide, which opens your browser, or from Settings → Acc
 
 Includes live dictation, Cadence Agent, the daily dashboard graph, floating quick controls and in-app updates. Your account provides the managed speech and writing connection.
 
-The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.38/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
+The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.39/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
 
-[Checksums](releases/windows-v1.2.38/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.38)
+[Checksums](releases/windows-v1.2.39/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.39)
 
 This repository contains distribution files and documentation. Application source is maintained separately.
