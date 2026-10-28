@@ -1,0 +1,15 @@
+# Windows 1.2.41 release verification - 28 October 2026
+
+Application and package source: `60c28b6e3420ece1c8bd0aa7c277164d878b105e` in `blazespark221-byte/cadence`, branch `feature/agent-background-windows`, based on Windows 1.2.40. Build and acceptance: https://github.com/blazespark221-byte/cadence/actions/runs/40616613071.
+
+This release adds Work in background to Cadence Agent. Hidden noninteractive PowerShell commands report output/exit status and use an owned process tree for cancellation. Native UI Automation reads existing windows and uses supported controls without focusing windows, global mouse/keyboard input or clipboard changes. Manual approval, one action per turn and reading each tool result before completion are exercised by the background checks. Command output and selected window text go to the configured writing provider. Each terminal call has a 120-second maximum. Unsupported controls are refused; an app's own action can still open UI.
+
+Both the Windows shell and Swift bridge were built fresh from clean source on an isolated Windows x64 runner. The package includes matching .NET Desktop/Swift runtimes and the self-contained background worker. The downloaded ZIP and installer match the build's SHA-256 manifest; 529 payload files were independently verified against build-manifest.json. No application source or customer credentials are included in the public release.
+
+Checks on this revision: 1882 managed-account checks, 186 portable parity checks, 13 background worker/Agent integration checks and 3 protocol checks. Background checks cover real PowerShell output/exit/cwd, output limits, timeout/cancellation, process ownership, EOF and abrupt worker death, stale snapshots, secure/blocked fields, and a disposable native form edited/invoked with the foreground window unchanged.
+
+Windows application acceptance: 230 logic/controller checks (0 failures; 1 separate desktop suite skipped), 7 Annotate offscreen, 6 native Notepad Agent, 12 Chrome/Edge dictation, 5 opaque-editor, 11 native shortcut and 10 clipboard checks. Exact-package checks: 4 headless gates, 7 floating-control checks, and 16 isolated installer/lifecycle gates, including upgrade from 1.0.4, restart/reinstall, synthetic settings/encrypted-session retention, uninstall and updater handoffs. Verification installers use a separate identity and temporary profiles; the production installation is not changed by these checks.
+
+An earlier candidate failed the diagnostics allowlist check; the fixed source was rebuilt. A second run was cancelled to replace stale bundled documentation. Only the passing run linked above supplies this release's bytes.
+
+Remaining limits: the installer is unsigned. No live AI background-task completion, physical microphone dictation, Parakeet inference on Windows hardware, fresh real browser sign-in, production-identity installation, real monitor/DPI transitions or arbitrary third-party background controls are certified here. The optional legacy Swift speech capability result is false; it is separate from the shipping on-device dictation path. See verification-summary.json for exact machine-readable counts and flags.

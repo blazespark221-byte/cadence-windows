@@ -1,0 +1,50 @@
+{
+  "source_commit": "60c28b6e3420ece1c8bd0aa7c277164d878b105e",
+  "base_release": "1.2.40",
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/40616613071",
+  "build_workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/40616613071",
+  "workflow_passed": true,
+  "candidate_revalidated_without_rebuild": false,
+  "app_change_commits": [
+    "89c3dda: background Agent integration",
+    "3aba077: diagnostics allowlist and data disclosure"
+  ],
+  "documentation_commits": [
+    "60c28b6: current background and dictation guide bundled in the package"
+  ],
+  "earlier_runs": [
+    {
+      "run": "40614789181",
+      "result": "failed",
+      "reason": "New background preference error was missing from the diagnostics allowlist; corrected before rebuilding."
+    },
+    {
+      "run": "40616075005",
+      "result": "cancelled",
+      "reason": "Superseded by a fresh build with corrected bundled documentation."
+    }
+  ],
+  "windows_logic_passed": 230,
+  "annotate_offscreen_checks": 7,
+  "agent_native_notepad_checks": 6,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 5,
+  "shortcut_capture_native_checks": 11,
+  "clipboard_checks": 10,
+  "packaged_headless_gates": 4,
+  "packaged_floating_interaction_checks": 7,
+  "package_lifecycle_gates": 16,
+  "managed_account_checks": 1882,
+  "parity_checks": 186,
+  "background_terminal_and_control_checks": 13,
+  "background_protocol_checks": 3,
+  "artifact_verifier_payload_files": 529,
+  "background_worker_self_contained": true,
+  "background_native_control_fixture_verified": true,
+  "live_ai_background_task_verified": false,
+  "arbitrary_third_party_background_controls_verified": false,
+  "parakeet_inference_on_windows_verified": false,
+  "live_microphone_dictation_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}
