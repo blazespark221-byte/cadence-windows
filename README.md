@@ -2,9 +2,11 @@
 
 Speak to insert text at your cursor, or select text, ask for a rewrite, review and replace it.
 
-[Download Windows 1.2.42](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.42/Cadence-1.2.42-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.42/Cadence-1.2.42-windows-x64-portable.zip)
+[Download Windows 1.2.43](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.43/Cadence-1.2.43-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.43/Cadence-1.2.43-windows-x64-portable.zip)
 
-**New in 1.2.42:** Choose Cadence Chat's model from the new menu next to Attach: Swift, the default on every plan, or Advanced on Pro. Cadence Agent's models are called Swift and Advanced too. The Agent request box has a new look, with the model and access menus on the left and Attach beside dictation and Send. Cadence Agent now always works in the background, so the Work in background switch is gone.
+**New in 1.2.43:** Ask Cadence: in any app, hold Ctrl+Alt+K and ask out loud, then let go, and Cadence Chat answers in the notch without taking you out of your app. It knows which app you asked in and any text you had selected there; you can remove that before sending, and nothing is read from password fields or apps you’ve blocked. A reply can include a draft with Paste and Copy, or a task with Run with Cadence Agent, and nothing happens until you click. Cadence Agent now works more like Claude Code, with its own terminal per conversation, background commands you can stop, and the screen as a last resort. The sidebar lists the Claude Code sessions running on this PC, with Claude’s logo. Names from your Dictionary come out right more often.
+
+**In 1.2.42:** Choose Cadence Chat's model from the new menu next to Attach: Swift, the default on every plan, or Advanced on Pro. Cadence Agent's models are called Swift and Advanced too. The Agent request box has a new look, with the model and access menus on the left and Attach beside dictation and Send. Cadence Agent now always works in the background, so the Work in background switch is gone.
 
 **In 1.2.41:** Cadence Agent can run hidden terminal commands and use supported controls in existing windows. Stop cancels owned commands. Command output and selected app text go to your writing provider; unsupported controls do not fall back to foreground input.
 
@@ -30,8 +32,8 @@ Sign in from the setup guide, which opens your browser, or from Settings → Acc
 
 Includes live dictation, Cadence Agent, the daily dashboard graph, floating quick controls and in-app updates. Your account provides the managed speech and writing connection.
 
-The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.42/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
+The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.43/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
 
-[Checksums](releases/windows-v1.2.42/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.42)
+[Checksums](releases/windows-v1.2.43/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.43)
 
 This repository contains distribution files and documentation. Application source is maintained separately.
