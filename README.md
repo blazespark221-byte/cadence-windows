@@ -2,9 +2,11 @@
 
 Speak to insert text at your cursor, or select text, ask for a rewrite, review and replace it.
 
-[Download Windows 1.2.44](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.44/Cadence-1.2.44-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.44/Cadence-1.2.44-windows-x64-portable.zip)
+[Download Windows 1.2.45](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.45/Cadence-1.2.45-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.45/Cadence-1.2.45-windows-x64-portable.zip)
 
-**New in 1.2.44:** Annotate sees what you circle. Circle a photo, chart, diagram or screenshot as well as text, and Cadence answers about it. The circled area is sent as a picture together with the words read from it on your PC; nothing else on your screen is sent. Annotate always answers with Swift, and a Chat window left on another virtual desktop comes to the one you’re on.
+**New in 1.2.45:** Cleanup & formatting. Dictate a list and it comes out as a list; dictate an email and it comes out with its greeting, paragraphs and sign-off. At Light, English dictation can be cleaned up on your PC with S1-mini by Superwhisper (a one-time 406 MB download), so the text isn’t sent; anything it can’t do well still uses Cadence’s writing service. Chat and Cadence Agent open out of the floating controls at every screen edge.
+
+**In 1.2.44:** Annotate sees what you circle. Circle a photo, chart, diagram or screenshot as well as text, and Cadence answers about it. The circled area is sent as a picture together with the words read from it on your PC; nothing else on your screen is sent. Annotate always answers with Swift, and a Chat window left on another virtual desktop comes to the one you’re on.
 
 **In 1.2.43:** Ask Cadence: in any app, hold Ctrl+Alt+K and ask out loud, then let go, and Cadence Chat answers in the notch without taking you out of your app. It knows which app you asked in and any text you had selected there; you can remove that before sending, and nothing is read from password fields or apps you’ve blocked. A reply can include a draft with Paste and Copy, or a task with Run with Cadence Agent, and nothing happens until you click. Cadence Agent now works more like Claude Code, with its own terminal per conversation, background commands you can stop, and the screen as a last resort. The sidebar lists the Claude Code sessions running on this PC, with Claude’s logo. Names from your Dictionary come out right more often.
 
@@ -34,8 +36,8 @@ Sign in from the setup guide, which opens your browser, or from Settings → Acc
 
 Includes live dictation, Cadence Agent, the daily dashboard graph, floating quick controls and in-app updates. Your account provides the managed speech and writing connection.
 
-The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.44/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
+The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.45/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
 
-[Checksums](releases/windows-v1.2.44/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.44)
+[Checksums](releases/windows-v1.2.45/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.45)
 
 This repository contains distribution files and documentation. Application source is maintained separately.
