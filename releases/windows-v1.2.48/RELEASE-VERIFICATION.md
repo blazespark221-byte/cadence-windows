@@ -1,0 +1,17 @@
+# Windows 1.2.48 release verification - 1 November 2026
+
+Application and package source: `aafabdde3c2ae901da8578207e7d12085a6abf89` in `blazespark221-byte/cadence`, branch `release/windows-1.2.48`, based on the unpublished Windows 1.2.47 (`7ebe5f59`), which is based on Windows 1.2.46. Build and acceptance: https://github.com/blazespark221-byte/cadence/actions/runs/41302124909 (attempt 1, source unmodified). Exact candidate stored in the private draft release `windows-candidate-1.2.48-41302124909`.
+
+This release adds History (every delivered dictation with its app and time, searchable, stored only on this PC), makes terminals paste-only for dictation so repainting output no longer fails capture or confirmation, carries the WebView2 focus fix from 1.2.47, and removes the Claude Code sessions section.
+
+Both the Windows shell and Swift bridge were built fresh from clean source on an isolated Windows x64 runner. The package includes matching .NET Desktop/Swift runtimes and Microsoft.ML.OnnxRuntimeGenAI 0.18.0 (with the licences for S1-mini and ONNX Runtime GenAI). The downloaded ZIP and installer match the build's SHA-256 manifest; 531 payload files were independently verified against build-manifest.json. No application source or customer credentials are included in the public release.
+
+Checks on this revision: 1889 managed-account checks; 131 portable parity checks, including 14 History checks and the 50,000-record load, search and delete check.
+
+Windows application acceptance: 241 logic/controller checks (0 failures; 1 separate desktop suite skipped), 8 Annotate offscreen, 12 Chrome/Edge dictation, 5 opaque-editor, 11 native shortcut and 10 clipboard checks. Exact-package checks: 4 headless gates (the offscreen gate renders History populated, empty, searched, with no results and filtered, in light and dark, and asserts the sidebar has no Claude Code entry), 7 floating-control checks, and 16 isolated installer/lifecycle gates, including upgrade from 1.0.4, restart/reinstall, synthetic settings/encrypted-session retention, uninstall and updater handoffs. Verification installers use a separate identity and temporary profiles; the production installation is not changed by these checks.
+
+Earlier CI runs of this release stopped on a too-strict 50,000-record delete limit (2.3 s against 2 s on the runner, off the UI thread; limit raised), History failure diagnostics missing from the allowlist (fixed), a streaming timeout unrelated to this release that passed on rerun, and a new offscreen check that read the page before layout (fixed). The run above passed first time from this source.
+
+Remaining limits: the installer is unsigned. This build has only been run on CI runners and in local automated checks, not in everyday use on a real PC. History has never recorded a real dictation from a physical microphone. Terminal dictation was not run against a real terminal: the failure and the fix come from reading the code and Windows Terminal's source, and from logic checks. No live Ask Cadence, live Chat model, physical microphone dictation, Parakeet or S1-mini dictation on a laptop, fresh real browser sign-in, production-identity installation or real monitor/DPI transitions are certified here. The optional legacy Swift speech capability result is false; it is separate from the shipping on-device dictation path.
+
+See verification-summary.json for exact machine-readable counts and flags.

@@ -1,0 +1,40 @@
+{
+  "source_commit": "aafabdde3c2ae901da8578207e7d12085a6abf89",
+  "base_release": "1.2.46",
+  "includes_unpublished": [
+    "1.2.47"
+  ],
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/41302124909",
+  "build_workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/41302124909",
+  "workflow_attempt": 1,
+  "workflow_passed": true,
+  "candidate_revalidated_without_rebuild": false,
+  "app_change_commits": [
+    "b994230: History",
+    "4db7d7b: Claude Code sessions removed",
+    "ab8620d: terminals are paste-only for dictation",
+    "7ebe5f5: WebView2 apps (1.2.47)"
+  ],
+  "windows_logic_passed": 241,
+  "annotate_offscreen_checks": 8,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 5,
+  "shortcut_capture_native_checks": 11,
+  "clipboard_checks": 10,
+  "packaged_headless_gates": 4,
+  "packaged_floating_interaction_checks": 7,
+  "package_lifecycle_gates": 16,
+  "parity_checks": 131,
+  "artifact_verifier_payload_files": 531,
+  "dictation_history_added": true,
+  "claude_code_sessions_removed": true,
+  "build_time_verification_md_current": true,
+  "real_1_2_46_install_upgrade_verified": false,
+  "live_history_dictation_verified": false,
+  "live_terminal_dictation_verified": false,
+  "live_ask_cadence_verified": false,
+  "parakeet_inference_on_windows_verified": false,
+  "live_microphone_dictation_verified": false,
+  "full_desktop_acceptance": false,
+  "legacy_swift_bridge_capability_passed": false
+}
