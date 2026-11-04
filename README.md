@@ -2,9 +2,11 @@
 
 Speak to insert text at your cursor, or select text, ask for a rewrite, review and replace it.
 
-[Download Windows 1.2.48](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.48/Cadence-1.2.48-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.48/Cadence-1.2.48-windows-x64-portable.zip)
+[Download Windows 1.2.49](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.49/Cadence-1.2.49-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.49/Cadence-1.2.49-windows-x64-portable.zip)
 
-**New in 1.2.48:** History. Every dictation on this PC is listed with the app it went to and the time, and you can search by words, app or window title. It stays on this PC until you delete it, and you can turn it off in Settings. Dictating into terminals is more reliable, dictation and Refine now work in Tauri and other WebView2 apps, and the Claude Code sessions section is gone.
+**New in 1.2.49:** Dictionary words come out right. Say a word from your Dictionary that sounds like an ordinary word, such as “fal”, and Cadence writes your word instead of “fell”, only where you meant it. This works with cleanup & formatting off too.
+
+**In 1.2.48:** History. Every dictation on this PC is listed with the app it went to and the time, and you can search by words, app or window title. It stays on this PC until you delete it, and you can turn it off in Settings. Dictating into terminals is more reliable, dictation and Refine now work in Tauri and other WebView2 apps, and the Claude Code sessions section is gone.
 
 **In 1.2.46:** Cadence Agent has been removed, including its page, the Ctrl+Alt+A shortcut, voice conversations, background commands and Settings → Connectors. Dictation, Refine, Styles, Chat, Ask Cadence, Annotate, Translate and the Claude Code sessions in the sidebar work as before, and your settings, sign-in and chats are kept. Gmail, Outlook and custom MCP connector sign-ins are deleted from your PC when this version starts.
 
@@ -38,8 +40,8 @@ Sign in from the setup guide, which opens your browser, or from Settings → Acc
 
 Includes live dictation, Cadence Chat, the daily dashboard graph, floating quick controls and in-app updates. Your account provides the managed speech and writing connection.
 
-The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.48/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
+The installer is unsigned. Windows may show an unknown-publisher or reputation prompt. See the [verification record](releases/windows-v1.2.49/RELEASE-VERIFICATION.md) for the exact automated checks and remaining limits.
 
-[Checksums](releases/windows-v1.2.48/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.48)
+[Checksums](releases/windows-v1.2.49/SHA256SUMS.txt) · [Release details](https://github.com/blazespark221-byte/cadence-windows/releases/tag/windows-v1.2.49)
 
 This repository contains distribution files and documentation. Application source is maintained separately.
