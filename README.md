@@ -2,9 +2,11 @@
 
 Speak to insert text at your cursor, or select text, ask for a rewrite, review and replace it.
 
-[Download Windows 1.2.49](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.49/Cadence-1.2.49-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.49/Cadence-1.2.49-windows-x64-portable.zip)
+[Download Windows 1.2.50](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.50/Cadence-1.2.50-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.50/Cadence-1.2.50-windows-x64-portable.zip)
 
-**New in 1.2.49:** Dictionary words come out right. Say a word from your Dictionary that sounds like an ordinary word, such as “fal”, and Cadence writes your word instead of “fell”, only where you meant it. This works with cleanup & formatting off too.
+**New in 1.2.50:** Dictation in more than 90 languages, including Chinese and English, and you can mix two in one sentence. Cadence's service transcribes your voice while you speak, so your words are ready about half a second after you stop, with nothing to download first. The old on-device speech model is removed, freeing about 670 MB; your recording now goes to Cadence's service for transcription.
+
+**In 1.2.49:** Dictionary words come out right. Say a word from your Dictionary that sounds like an ordinary word, such as “fal”, and Cadence writes your word instead of “fell”, only where you meant it. This works with cleanup & formatting off too.
 
 **In 1.2.48:** History. Every dictation on this PC is listed with the app it went to and the time, and you can search by words, app or window title. It stays on this PC until you delete it, and you can turn it off in Settings. Dictating into terminals is more reliable, dictation and Refine now work in Tauri and other WebView2 apps, and the Claude Code sessions section is gone.
 
