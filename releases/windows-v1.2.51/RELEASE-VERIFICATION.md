@@ -1,0 +1,19 @@
+# Windows 1.2.51 release verification - 8 November 2026
+
+Application and package source: `c22cb46b793f9408b07aed166f1fd45180bbe0d1` in `blazespark221-byte/cadence`, branch `release/windows-1.2.51`, based on Windows 1.2.50 (`4454a2c4`). Build and acceptance: https://github.com/blazespark221-byte/cadence/actions/runs/42457714206 (attempt 2, source unmodified). Exact candidate stored in the private draft release `windows-candidate-1.2.51-42457714206`.
+
+This release fixes a customer report on 1.2.50: Right Alt dictation stopped working, and every new dictation shortcut was refused with "Not changed. Shortcut setup: this shortcut is already in use or unavailable." Right Alt is a lone-modifier shortcut, which never calls RegisterHotKey, so the refused combination was another Cadence shortcut's. Registration was all-or-nothing, and its startup fallback could leave out only Annotate, Translate and Ask Cadence. When another app owned Refine's combination, nothing was registered (dictation included), and each save failed again on Refine while the error was shown against dictation.
+
+Shortcuts now register independently (`WindowsHotkeyService.RegisterAvailable`). One whose combination another app owns, or a saved one that is invalid or repeats another, is left off and named beside its field ("Refine's shortcut, Ctrl + Alt + R, is already used by another app or reserved by Windows"). Dictation's own conflict still opens Settings → Shortcuts. The shortcut being changed must register, and its refusal names whose shortcut it is (`ShortcutUnavailableException`). Unchanged shortcuts that are off are retried on every shortcut save, so they return once the other app lets go. `IsRegistered` now means dictation's shortcut is live.
+
+Only the Windows shell changed: CadenceCore, the Swift bridge, the packaging tools and the installer are unchanged from 1.2.50. Both the shell and the bridge were still built fresh from clean source on an isolated Windows x64 runner. The downloaded ZIP and installer match the build's SHA-256 manifest.
+
+Checks on this revision: 1889 managed-account checks; 116 portable parity checks. Windows application acceptance: 243 logic/controller checks (0 failures; 1 separate desktop suite skipped), 8 Annotate offscreen, 12 Chrome/Edge dictation, 5 opaque-editor, 12 native shortcut (one new) and 10 clipboard checks. Exact-package checks: 4 headless gates, 7 floating-control checks and 16 isolated installer/lifecycle gates, including upgrade from 1.0.4, restart/reinstall, settings/encrypted-session retention, uninstall and updater handoffs.
+
+The new native check reproduces the report on the runner: a second window registers Refine's combination first; Cadence then starts with Right Alt dictation, which registers, fires on a Right Alt tap and can be changed to Right Ctrl while Refine stays off and named. Choosing another app's combination for Refine itself is refused by name with nothing changed, and Refine's shortcut is taken back on the next save once the other app lets go.
+
+Attempt 1 of the run stopped on one browser check ("Chrome · ordinary web text field keeps smart spacing": Chrome's accessibility tree did not report the focused field in time). That check does not use Cadence's shortcut service; the same check passed in Edge, and both browsers' Right Alt checks passed. Attempt 2 of the same source passed every step.
+
+Remaining limits: the installer is unsigned. The fix has been run only on CI runners, not on the reporting customer's PC, and the other app holding their shortcut is not identified. Production-identity installation, physical microphone dictation and real monitor/DPI transitions are not certified here. The optional legacy Swift speech capability result is false; it is separate from the shipping dictation path.
+
+See verification-summary.json for exact machine-readable counts and flags.

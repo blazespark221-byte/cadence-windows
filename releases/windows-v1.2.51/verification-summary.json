@@ -1,0 +1,31 @@
+{
+  "source_commit": "c22cb46b793f9408b07aed166f1fd45180bbe0d1",
+  "base_release": "1.2.50",
+  "includes_unpublished": [],
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/42457714206",
+  "build_workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/42457714206",
+  "workflow_attempt": 2,
+  "workflow_passed": true,
+  "candidate_revalidated_without_rebuild": false,
+  "app_change_commits": [
+    "c22cb46: a shortcut another app owns no longer stops the others"
+  ],
+  "windows_logic_passed": 243,
+  "annotate_offscreen_checks": 8,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 5,
+  "shortcut_capture_native_checks": 12,
+  "shortcut_conflict_regression_check_passed": true,
+  "clipboard_checks": 10,
+  "packaged_headless_gates": 4,
+  "packaged_floating_interaction_checks": 7,
+  "package_lifecycle_gates": 16,
+  "parity_checks": 116,
+  "managed_account_checks": 1889,
+  "core_and_bridge_source_changed": false,
+  "attempt_1_failure": "Chrome ordinary web text field: accessibility tree did not report the focused field in time (not shortcut code); passed on attempt 2",
+  "signed": false,
+  "legacy_swift_speech_capability": false,
+  "physical_microphone_verified": false,
+  "customer_pc_verified": false
+}
