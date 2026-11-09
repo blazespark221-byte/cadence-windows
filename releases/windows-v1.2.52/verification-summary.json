@@ -1,0 +1,31 @@
+{
+  "source_commit": "d8c28a802d839bb72308f5243d3a2128375cc6d0",
+  "base_release": "1.2.51",
+  "includes_unpublished": [],
+  "workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/42575913808",
+  "build_workflow": "https://github.com/blazespark221-byte/cadence/actions/runs/42575913808",
+  "workflow_attempt": 1,
+  "workflow_passed": true,
+  "candidate_revalidated_without_rebuild": false,
+  "app_change_commits": [
+    "bfaf502c: quick taps end quietly, a stalled final falls back in 15 s, shortcuts come back, unlisted language detected"
+  ],
+  "service_change": "cadence-api 700c9fce: exact-zero samples get a \u00b11 floor before Scribe (rollback 9392be15)",
+  "windows_logic_passed": 243,
+  "annotate_offscreen_checks": 8,
+  "browser_dictation_native_checks": 12,
+  "opaque_editor_native_checks": 5,
+  "shortcut_capture_native_checks": 13,
+  "shortcut_conflict_regression_check_passed": true,
+  "clipboard_checks": 10,
+  "packaged_headless_gates": 4,
+  "packaged_floating_interaction_checks": 7,
+  "package_lifecycle_gates": 16,
+  "parity_checks": 120,
+  "managed_account_checks": 1889,
+  "core_and_bridge_source_changed": false,
+  "signed": false,
+  "legacy_swift_speech_capability": false,
+  "physical_microphone_verified": false,
+  "customer_pc_verified": false
+}
