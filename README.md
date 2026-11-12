@@ -2,9 +2,11 @@
 
 Speak to insert text at your cursor, or select text, ask for a rewrite, review and replace it.
 
-[Download Windows 1.2.52](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.52/Cadence-1.2.52-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.52/Cadence-1.2.52-windows-x64-portable.zip)
+[Download Windows 1.2.53](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.53/Cadence-1.2.53-windows-x64-setup.exe) · [Portable ZIP](https://github.com/blazespark221-byte/cadence-windows/releases/download/windows-v1.2.53/Cadence-1.2.53-windows-x64-portable.zip)
 
-**New in 1.2.52:** Fewer interrupted dictations. Everything you say after a long pause is kept, even on a muted or noise-cancelling microphone; a quick tap of the shortcut ends quietly instead of showing an error; if the connection stalls after you stop, Cadence sends your recording again after 15 seconds; and a shortcut another app had taken comes back as soon as you choose it again.
+**New in 1.2.53:** A new look for the main window. Cadence opens on Today, with everything you’ve dictated under one line about your day; the sidebar groups Speak (Today, Styles, Words), Write with AI (Refine, Chat) and You (Your week, Settings); Refine has its own page with your presets; and Your week shows your words, time saved, this week’s allowance and the apps you dictated into. Your settings, History, dictionary, styles and presets are kept.
+
+**In 1.2.52:** Fewer interrupted dictations. Everything you say after a long pause is kept, even on a muted or noise-cancelling microphone; a quick tap of the shortcut ends quietly instead of showing an error; if the connection stalls after you stop, Cadence sends your recording again after 15 seconds; and a shortcut another app had taken comes back as soon as you choose it again.
 
 **In 1.2.51:** Your shortcuts keep working when another app takes one. Before, if another app had taken Refine's key combination, dictation stopped too, and every new dictation shortcut was refused as "already in use". Now that shortcut is left off and named in Settings → Shortcuts so you can choose another, and the rest keep working.
 
